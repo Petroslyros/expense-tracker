@@ -30,28 +30,6 @@ A full-stack web application for tracking personal expenses. The backend is buil
 - Forms: **React Hook Form** + **Zod**
 - State: **React Context API** + AuthProvider
 
----
-
-## **Project Structure**
-
-```
-expense-tracker/
-├── backend/
-│   ├── ExpensesTrackerApp/
-│   │   ├── Program.cs
-│   │   ├── appsettings.json
-│   │   ├── Controllers/
-│   │   ├── Services/
-│   │   └── ...
-│   └── ExpensesTrackerApp.sln
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│   ├── vite.config.ts
-│   └── ...
-├── .gitignore
-└── README.md
-```
 
 ---
 
