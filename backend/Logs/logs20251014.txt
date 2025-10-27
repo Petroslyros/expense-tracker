@@ -1,0 +1,161 @@
+[14-10-2025 15:46:36 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 15:46:36 INF] Now listening on: https://localhost:5001 
+ [14-10-2025 15:46:36 INF] Now listening on: http://localhost:5000 
+ [14-10-2025 15:46:36 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 15:46:36 INF] Hosting environment: Development 
+ [14-10-2025 15:46:36 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [14-10-2025 15:46:36 INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null 
+ [14-10-2025 15:46:36 INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 301 0 null 61.0286ms 
+ [14-10-2025 15:46:36 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [14-10-2025 15:46:36 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 39.3722ms 
+ [14-10-2025 15:46:36 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - null null 
+ [14-10-2025 15:46:36 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - null null 
+ [14-10-2025 15:46:36 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - null null 
+ [14-10-2025 15:46:36 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 8.883ms 
+ [14-10-2025 15:46:37 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [14-10-2025 15:46:37 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - 200 152034 text/css 14.0095ms 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 14.5292ms 
+ [14-10-2025 15:46:37 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 21.4803ms 
+ [14-10-2025 15:46:37 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.6326ms 
+ [14-10-2025 15:46:37 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.3967ms 
+ [14-10-2025 15:46:37 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - null null 
+ [14-10-2025 15:46:37 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+ [14-10-2025 15:46:37 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - 200 628 image/png 3.2474ms 
+ [14-10-2025 15:48:34 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 15:48:34 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [14-10-2025 15:48:34 INF] Now listening on: https://localhost:5001 
+ [14-10-2025 15:48:34 INF] Now listening on: http://localhost:5000 
+ [14-10-2025 15:48:34 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 15:48:34 INF] Hosting environment: Development 
+ [14-10-2025 15:48:34 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [14-10-2025 15:48:34 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [14-10-2025 15:48:34 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 65.5091ms 
+ [14-10-2025 15:48:34 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [14-10-2025 15:48:34 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [14-10-2025 15:48:34 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.1051ms 
+ [14-10-2025 15:48:34 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.7063ms 
+ [14-10-2025 15:48:34 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [14-10-2025 15:48:34 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.8795ms 
+ [14-10-2025 15:48:38 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [14-10-2025 15:48:38 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 4.4401ms 
+ [14-10-2025 15:48:38 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [14-10-2025 15:48:38 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [14-10-2025 15:48:38 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 1.6982ms 
+ [14-10-2025 15:48:38 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.2408ms 
+ [14-10-2025 15:48:38 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [14-10-2025 15:48:38 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.1904ms 
+ [14-10-2025 13:01:50 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 13:01:50 WRN] Using an in-memory repository. Keys will not be persisted to storage. 
+ [14-10-2025 13:01:50 WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits. 
+ [14-10-2025 13:01:50 INF] Creating key {9705029f-1ae4-4370-af86-14cf7590a20d} with creation date 2025-10-14 13:01:50Z, activation date 2025-10-14 13:01:50Z, and expiration date 2026-01-12 13:01:50Z. 
+ [14-10-2025 13:01:50 WRN] No XML encryptor configured. Key {9705029f-1ae4-4370-af86-14cf7590a20d} may be persisted to storage in unencrypted form. 
+ [14-10-2025 13:01:50 INF] Now listening on: http://[::]:8080 
+ [14-10-2025 13:01:50 INF] Now listening on: https://[::]:8081 
+ [14-10-2025 13:01:50 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 13:01:50 INF] Hosting environment: Development 
+ [14-10-2025 13:01:50 INF] Content root path: /app 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger - null null 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger - 301 0 null 14.2012ms 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/index.html - null null 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/index.html - 200 null text/html;charset=utf-8 44.8168ms 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/swagger-ui-standalone-preset.js - null null 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/swagger-ui.css - null null 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/swagger-ui-bundle.js - null null 
+ [14-10-2025 13:02:21 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [14-10-2025 13:02:21 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/swagger-ui.css - 200 152034 text/css 14.3503ms 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 14.5425ms 
+ [14-10-2025 13:02:21 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 25.1126ms 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - null null 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8418ms 
+ [14-10-2025 13:02:21 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/favicon-32x32.png - null null 
+ [14-10-2025 13:02:21 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+ [14-10-2025 13:02:21 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/favicon-32x32.png - 200 628 image/png 1.9854ms 
+ [14-10-2025 13:02:33 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 13:02:33 WRN] Using an in-memory repository. Keys will not be persisted to storage. 
+ [14-10-2025 13:02:33 WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits. 
+ [14-10-2025 13:02:33 INF] Creating key {aa4edafc-9f95-4911-9add-ddd1b91f2fc2} with creation date 2025-10-14 13:02:33Z, activation date 2025-10-14 13:02:33Z, and expiration date 2026-01-12 13:02:33Z. 
+ [14-10-2025 13:02:33 WRN] No XML encryptor configured. Key {aa4edafc-9f95-4911-9add-ddd1b91f2fc2} may be persisted to storage in unencrypted form. 
+ [14-10-2025 13:02:34 INF] Now listening on: http://[::]:8080 
+ [14-10-2025 13:02:34 INF] Now listening on: https://[::]:8081 
+ [14-10-2025 13:02:34 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 13:02:34 INF] Hosting environment: Development 
+ [14-10-2025 13:02:34 INF] Content root path: /app 
+ [14-10-2025 13:02:34 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/index.html - null null 
+ [14-10-2025 13:02:34 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/index.html - 200 null text/html;charset=utf-8 52.7531ms 
+ [14-10-2025 13:02:34 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - null null 
+ [14-10-2025 13:02:34 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.798ms 
+ [14-10-2025 14:45:48 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 14:45:49 WRN] Using an in-memory repository. Keys will not be persisted to storage. 
+ [14-10-2025 14:45:49 WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits. 
+ [14-10-2025 14:45:49 INF] Creating key {34e5520d-4c62-45a6-b890-935b7bf41c28} with creation date 2025-10-14 14:45:49Z, activation date 2025-10-14 14:45:49Z, and expiration date 2026-01-12 14:45:49Z. 
+ [14-10-2025 14:45:49 WRN] No XML encryptor configured. Key {34e5520d-4c62-45a6-b890-935b7bf41c28} may be persisted to storage in unencrypted form. 
+ [14-10-2025 14:45:49 INF] Now listening on: http://[::]:8080 
+ [14-10-2025 14:45:49 INF] Now listening on: https://[::]:8081 
+ [14-10-2025 14:45:49 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 14:45:49 INF] Hosting environment: Development 
+ [14-10-2025 14:45:49 INF] Content root path: /app 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger - null null 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger - 301 0 null 13.6601ms 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/index.html - null null 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/index.html - 200 null text/html;charset=utf-8 41.7916ms 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/swagger-ui-standalone-preset.js - null null 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/swagger-ui.css - null null 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/swagger-ui-bundle.js - null null 
+ [14-10-2025 14:45:49 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [14-10-2025 14:45:49 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 12.5101ms 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/swagger-ui.css - 200 152034 text/css 12.9165ms 
+ [14-10-2025 14:45:49 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 20.1947ms 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/v1/swagger.json - null null 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8114ms 
+ [14-10-2025 14:45:49 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/favicon-32x32.png - null null 
+ [14-10-2025 14:45:49 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+ [14-10-2025 14:45:49 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/favicon-32x32.png - 200 628 image/png 1.2288ms 
+ [14-10-2025 17:47:00 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 17:47:00 WRN] Using an in-memory repository. Keys will not be persisted to storage. 
+ [14-10-2025 17:47:00 WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits. 
+ [14-10-2025 17:47:00 INF] Creating key {cc11f53b-c4a5-4636-b79b-083a1ad038df} with creation date 2025-10-14 17:47:00Z, activation date 2025-10-14 17:47:00Z, and expiration date 2026-01-12 17:47:00Z. 
+ [14-10-2025 17:47:00 WRN] No XML encryptor configured. Key {cc11f53b-c4a5-4636-b79b-083a1ad038df} may be persisted to storage in unencrypted form. 
+ [14-10-2025 17:47:01 INF] Now listening on: http://[::]:8080 
+ [14-10-2025 17:47:01 INF] Now listening on: https://[::]:8081 
+ [14-10-2025 17:47:01 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 17:47:01 INF] Hosting environment: Development 
+ [14-10-2025 17:47:01 INF] Content root path: /app 
+ [14-10-2025 17:47:01 INF] Request starting HTTP/2 GET https://localhost:32771/swagger - null null 
+ [14-10-2025 17:47:01 INF] Request finished HTTP/2 GET https://localhost:32771/swagger - 301 0 null 13.9436ms 
+ [14-10-2025 17:47:01 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/index.html - null null 
+ [14-10-2025 17:47:01 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/index.html - 200 null text/html;charset=utf-8 43.0011ms 
+ [14-10-2025 17:47:01 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/swagger-ui.css - null null 
+ [14-10-2025 17:47:01 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/swagger-ui-bundle.js - null null 
+ [14-10-2025 17:47:01 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/swagger-ui-standalone-preset.js - null null 
+ [14-10-2025 17:47:01 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [14-10-2025 17:47:01 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [14-10-2025 17:47:01 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 14.67ms 
+ [14-10-2025 17:47:01 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/swagger-ui.css - 200 152034 text/css 14.8238ms 
+ [14-10-2025 17:47:01 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [14-10-2025 17:47:01 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 25.4527ms 
+ [14-10-2025 17:47:01 INF] Request starting HTTP/2 GET https://localhost:32771/swagger/v1/swagger.json - null null 
+ [14-10-2025 17:47:01 INF] Request finished HTTP/2 GET https://localhost:32771/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0079ms 
+ [14-10-2025 18:08:07 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [14-10-2025 18:08:07 WRN] Using an in-memory repository. Keys will not be persisted to storage. 
+ [14-10-2025 18:08:07 WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits. 
+ [14-10-2025 18:08:07 INF] Creating key {4ed9252d-25bd-4bae-8239-2bf3013cfb2a} with creation date 2025-10-14 18:08:07Z, activation date 2025-10-14 18:08:07Z, and expiration date 2026-01-12 18:08:07Z. 
+ [14-10-2025 18:08:07 WRN] No XML encryptor configured. Key {4ed9252d-25bd-4bae-8239-2bf3013cfb2a} may be persisted to storage in unencrypted form. 
+ [14-10-2025 18:08:07 INF] Now listening on: http://[::]:8080 
+ [14-10-2025 18:08:07 INF] Now listening on: https://[::]:8081 
+ [14-10-2025 18:08:07 INF] Application started. Press Ctrl+C to shut down. 
+ [14-10-2025 18:08:07 INF] Hosting environment: Development 
+ [14-10-2025 18:08:07 INF] Content root path: /app 
+ [14-10-2025 18:08:08 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/index.html - null null 
+ [14-10-2025 18:08:08 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/index.html - 200 null text/html;charset=utf-8 57.9085ms 
+ [14-10-2025 18:08:08 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - null null 
+ [14-10-2025 18:08:08 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7534ms 
+ 

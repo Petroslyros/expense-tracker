@@ -1,0 +1,932 @@
+[22-10-2025 09:55:49 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 09:55:49 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 09:55:49 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 09:55:50 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 09:55:50 INF] Hosting environment: Development 
+ [22-10-2025 09:55:50 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 09:55:50 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 09:55:50 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 70.4958ms 
+ [22-10-2025 09:55:50 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 09:55:50 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.7109ms 
+ [22-10-2025 09:55:50 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 09:55:50 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.4984ms 
+ [22-10-2025 09:55:50 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 09:55:50 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.755ms 
+ [22-10-2025 09:57:56 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 127 
+ [22-10-2025 09:57:56 INF] CORS policy execution successful. 
+ [22-10-2025 09:57:56 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 09:57:56 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 09:57:56 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 09:57:56 INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+ [22-10-2025 09:57:56 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 123.0676ms 
+ [22-10-2025 09:57:56 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 09:57:56 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 401 null text/plain; charset=utf-8 157.0592ms 
+ [22-10-2025 11:05:01 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 11:05:02 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 11:05:02 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 11:05:02 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 11:05:02 INF] Hosting environment: Development 
+ [22-10-2025 11:05:02 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 11:05:02 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 11:05:02 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 73.8178ms 
+ [22-10-2025 11:05:02 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 11:05:02 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 11:05:02 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.7714ms 
+ [22-10-2025 11:05:02 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.4707ms 
+ [22-10-2025 11:05:02 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 11:05:02 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.3869ms 
+ [22-10-2025 11:17:59 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 11:17:59 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 11:17:59 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 11:17:59 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 11:17:59 INF] Hosting environment: Development 
+ [22-10-2025 11:17:59 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 11:17:59 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 11:17:59 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 70.2672ms 
+ [22-10-2025 11:17:59 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 11:17:59 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 11:17:59 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.2065ms 
+ [22-10-2025 11:17:59 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.4165ms 
+ [22-10-2025 11:17:59 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 11:17:59 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2599ms 
+ [22-10-2025 11:23:54 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 11:23:54 INF] CORS policy execution successful. 
+ [22-10-2025 11:23:54 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:23:54 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 11:23:54 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 11:23:55 INF] Executed DbCommand (20ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 11:23:55 INF] User with username { Username} found 
+ [22-10-2025 11:23:55 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 11:23:55 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 970.5774ms 
+ [22-10-2025 11:23:55 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:23:55 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1006.2031ms 
+ [22-10-2025 11:24:16 INF] Request starting HTTP/2 GET https://localhost:5001/api/Expenses/GetExpenseById/1 - null null 
+ [22-10-2025 11:24:16 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetExpenseById (ExpensesTrackerApp)' 
+ [22-10-2025 11:24:16 INF] Route matched with {action = "GetExpenseById", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]] GetExpenseById(Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [22-10-2025 11:24:16 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetExpenseById (ExpensesTrackerApp) in 1.7242ms 
+ [22-10-2025 11:24:16 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetExpenseById (ExpensesTrackerApp)' 
+ [22-10-2025 11:24:16 ERR] NotImplementedException at /api/Expenses/GetExpenseById/1 GET by PetrosLyros | Trace = 0HNGH8E1FV7ND:00000003  
+ [22-10-2025 11:24:16 INF] Request finished HTTP/2 GET https://localhost:5001/api/Expenses/GetExpenseById/1 - 500 null application/json 30.9805ms 
+ [22-10-2025 11:25:37 INF] Request starting HTTP/2 POST https://localhost:5001/api/Expenses/CreateExpense - application/json-patch+json 103 
+ [22-10-2025 11:25:37 INF] CORS policy execution successful. 
+ [22-10-2025 11:25:37 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp)' 
+ [22-10-2025 11:25:37 INF] Route matched with {action = "CreateExpense", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]] CreateExpense(ExpensesTrackerApp.DTO.ExpenseInsertDTO) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [22-10-2025 11:25:38 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 11:25:38 INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Name] = @__name_0 
+ [22-10-2025 11:25:38 INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ExpenseCategories] ([DeletedAt], [InsertedAt], [Name], [isDeleted])
+OUTPUT INSERTED.[Id], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3); 
+ [22-10-2025 11:25:38 INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = Date), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?' (DbType = Int32), @p7='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Expenses] ([Amount], [Date], [DeletedAt], [ExpenseCategoryId], [InsertedAt], [Title], [UserId], [isDeleted])
+OUTPUT INSERTED.[Id], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7); 
+ [22-10-2025 11:25:38 INF] Expense created successfully for user 1 in category 5 
+ [22-10-2025 11:25:38 INF] Executing CreatedAtActionResult, writing value of type 'ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO'. 
+ [22-10-2025 11:25:38 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp) in 183.868ms 
+ [22-10-2025 11:25:38 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp)' 
+ [22-10-2025 11:25:38 INF] Request finished HTTP/2 POST https://localhost:5001/api/Expenses/CreateExpense - 201 107 application/json; charset=utf-8 194.8963ms 
+ [22-10-2025 11:26:11 INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Expenses/DeleteExpense/8 - null null 
+ [22-10-2025 11:26:11 INF] CORS policy execution successful. 
+ [22-10-2025 11:26:11 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.DeleteExpense (ExpensesTrackerApp)' 
+ [22-10-2025 11:26:11 INF] Route matched with {action = "DeleteExpense", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteExpense(Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [22-10-2025 11:26:11 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+FROM [Expenses] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:26:11 ERR] An exception occurred while iterating over the results of a query for context type 'ExpensesTrackerApp.Data.ExpenseAppDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.DateTime' to type 'System.DateOnly'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method412(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync() 
+ System.InvalidCastException: Unable to cast object of type 'System.DateTime' to type 'System.DateOnly'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method412(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[22-10-2025 11:26:11 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.DeleteExpense (ExpensesTrackerApp) in 25.7247ms 
+ [22-10-2025 11:26:11 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.DeleteExpense (ExpensesTrackerApp)' 
+ [22-10-2025 11:26:11 ERR] InvalidCastException at /api/Expenses/DeleteExpense/8 DELETE by PetrosLyros | Trace = 0HNGH8E1FV7ND:00000007  
+ [22-10-2025 11:26:11 INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Expenses/DeleteExpense/8 - 500 null application/json 34.6489ms 
+ [22-10-2025 11:30:19 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 11:30:19 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 11:30:19 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 11:30:19 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 11:30:19 INF] Hosting environment: Development 
+ [22-10-2025 11:30:19 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 11:30:19 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 11:30:19 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 70.5263ms 
+ [22-10-2025 11:30:19 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 11:30:19 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 11:30:19 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.1925ms 
+ [22-10-2025 11:30:19 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.4035ms 
+ [22-10-2025 11:30:20 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 11:30:20 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.5298ms 
+ [22-10-2025 11:30:34 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 11:30:34 INF] CORS policy execution successful. 
+ [22-10-2025 11:30:34 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:30:34 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 11:30:35 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 11:30:35 INF] Executed DbCommand (17ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 11:30:35 INF] User with username { Username} found 
+ [22-10-2025 11:30:35 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 11:30:35 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 980.2689ms 
+ [22-10-2025 11:30:35 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:30:35 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1016.5682ms 
+ [22-10-2025 11:30:56 INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Expenses/DeleteExpense/8 - null null 
+ [22-10-2025 11:30:56 INF] CORS policy execution successful. 
+ [22-10-2025 11:30:56 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.DeleteExpense (ExpensesTrackerApp)' 
+ [22-10-2025 11:30:56 INF] Route matched with {action = "DeleteExpense", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteExpense(Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [22-10-2025 11:30:56 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+FROM [Expenses] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:30:56 INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Expenses]
+OUTPUT 1
+WHERE [Id] = @p0; 
+ [22-10-2025 11:30:56 INF] Expense 8 deleted successfully by user 1 
+ [22-10-2025 11:30:56 INF] Executed DbCommand (1ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Expenses] AS [e]
+        WHERE [e].[ExpenseCategoryId] = @__categoryId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+ [22-10-2025 11:30:56 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:30:56 INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [ExpenseCategories]
+OUTPUT 1
+WHERE [Id] = @p0; 
+ [22-10-2025 11:30:56 INF] Category 5 deleted because it was unused 
+ [22-10-2025 11:30:56 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [22-10-2025 11:30:56 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.DeleteExpense (ExpensesTrackerApp) in 152.226ms 
+ [22-10-2025 11:30:56 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.DeleteExpense (ExpensesTrackerApp)' 
+ [22-10-2025 11:30:56 INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Expenses/DeleteExpense/8 - 200 43 application/json; charset=utf-8 178.9427ms 
+ [22-10-2025 11:31:31 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 99 
+ [22-10-2025 11:31:31 INF] CORS policy execution successful. 
+ [22-10-2025 11:31:31 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:31:31 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 11:31:31 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 11:31:31 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:31:31 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 20.9666ms 
+ [22-10-2025 11:31:31 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:31:31 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH8KU801U6:00000003  
+ [22-10-2025 11:31:31 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 33.3835ms 
+ [22-10-2025 11:41:18 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 11:41:18 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 11:41:18 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 11:41:18 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 11:41:18 INF] Hosting environment: Development 
+ [22-10-2025 11:41:18 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 11:41:18 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 11:41:18 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 63.8912ms 
+ [22-10-2025 11:41:18 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 11:41:18 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 11:41:18 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.5902ms 
+ [22-10-2025 11:41:19 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.4278ms 
+ [22-10-2025 11:41:19 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 11:41:19 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.4034ms 
+ [22-10-2025 11:41:35 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 11:41:35 INF] CORS policy execution successful. 
+ [22-10-2025 11:41:35 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:41:35 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 11:41:35 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 11:41:36 INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 11:41:36 INF] User with username { Username} found 
+ [22-10-2025 11:41:36 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 11:41:36 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 950.6953ms 
+ [22-10-2025 11:41:36 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:41:36 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 984.9234ms 
+ [22-10-2025 11:41:58 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 99 
+ [22-10-2025 11:41:58 INF] CORS policy execution successful. 
+ [22-10-2025 11:41:58 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:41:58 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 11:41:58 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 11:41:58 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:41:58 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 64.7722ms 
+ [22-10-2025 11:41:58 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:41:58 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH8R2KTHVH:0000000B  
+ [22-10-2025 11:41:58 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 93.5443ms 
+ [22-10-2025 11:48:33 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 11:48:33 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 11:48:33 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 11:48:33 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 11:48:33 INF] Hosting environment: Development 
+ [22-10-2025 11:48:33 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 11:48:33 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 11:48:33 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 67.464ms 
+ [22-10-2025 11:48:33 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 11:48:33 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 11:48:33 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.2494ms 
+ [22-10-2025 11:48:33 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3612ms 
+ [22-10-2025 11:48:33 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 11:48:33 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5645ms 
+ [22-10-2025 11:49:00 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 11:49:00 INF] CORS policy execution successful. 
+ [22-10-2025 11:49:00 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:49:00 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 11:49:00 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 11:49:00 INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 11:49:01 INF] User with username { Username} found 
+ [22-10-2025 11:49:01 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 11:49:01 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 927.0211ms 
+ [22-10-2025 11:49:01 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:49:01 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 963.0206ms 
+ [22-10-2025 11:49:23 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 99 
+ [22-10-2025 11:49:23 INF] CORS policy execution successful. 
+ [22-10-2025 11:49:23 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:49:23 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 11:49:23 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 11:49:23 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:49:23 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 65.8153ms 
+ [22-10-2025 11:49:23 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:49:23 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH8V46IVOQ:0000000B  
+ [22-10-2025 11:49:23 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 95.2205ms 
+ [22-10-2025 11:57:56 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 11:57:56 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 11:57:56 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 11:57:56 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 11:57:56 INF] Hosting environment: Development 
+ [22-10-2025 11:57:56 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 11:57:56 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 11:57:57 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 83.3867ms 
+ [22-10-2025 11:57:57 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 11:57:57 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 11:57:57 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.0441ms 
+ [22-10-2025 11:57:57 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.5528ms 
+ [22-10-2025 11:57:57 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 11:57:57 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.0138ms 
+ [22-10-2025 11:59:05 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 11:59:05 INF] CORS policy execution successful. 
+ [22-10-2025 11:59:05 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:59:05 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 11:59:05 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 11:59:06 INF] Executed DbCommand (15ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 11:59:06 INF] User with username { Username} found 
+ [22-10-2025 11:59:06 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 11:59:06 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 948.5082ms 
+ [22-10-2025 11:59:06 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 11:59:06 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 983.0965ms 
+ [22-10-2025 11:59:37 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 99 
+ [22-10-2025 11:59:37 INF] CORS policy execution successful. 
+ [22-10-2025 11:59:37 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:59:37 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 11:59:37 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 11:59:37 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 11:59:37 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 65.0034ms 
+ [22-10-2025 11:59:37 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 11:59:37 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH94C2SC0H:0000000B  
+ [22-10-2025 11:59:37 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 95.4494ms 
+ [22-10-2025 12:01:15 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:01:15 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:01:15 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:01:16 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:01:16 INF] Hosting environment: Development 
+ [22-10-2025 12:01:16 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:01:16 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:01:16 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 68.4574ms 
+ [22-10-2025 12:01:16 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:01:16 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:01:16 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.8664ms 
+ [22-10-2025 12:01:16 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.8464ms 
+ [22-10-2025 12:01:16 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:01:16 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8134ms 
+ [22-10-2025 12:01:35 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 12:01:35 INF] CORS policy execution successful. 
+ [22-10-2025 12:01:35 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:01:35 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 12:01:35 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 12:01:36 INF] Executed DbCommand (20ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 12:01:36 INF] User with username { Username} found 
+ [22-10-2025 12:01:36 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 12:01:36 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 927.2791ms 
+ [22-10-2025 12:01:36 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:01:36 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 961.9583ms 
+ [22-10-2025 12:01:55 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 127 
+ [22-10-2025 12:01:55 INF] CORS policy execution successful. 
+ [22-10-2025 12:01:55 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:01:55 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:01:55 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:01:55 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:01:55 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 67.0212ms 
+ [22-10-2025 12:01:55 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:01:55 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH967EG52K:0000000B  
+ [22-10-2025 12:01:55 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 96.7224ms 
+ [22-10-2025 12:03:03 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:03:03 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:03:03 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:03:03 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:03:03 INF] Hosting environment: Development 
+ [22-10-2025 12:03:03 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:03:03 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:03:03 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 85.6638ms 
+ [22-10-2025 12:03:03 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:03:03 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:03:03 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.2132ms 
+ [22-10-2025 12:03:03 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.2621ms 
+ [22-10-2025 12:03:03 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:03:03 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.7668ms 
+ [22-10-2025 12:05:44 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:05:44 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:05:44 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:05:45 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:05:45 INF] Hosting environment: Development 
+ [22-10-2025 12:05:45 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:05:45 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:05:45 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 71.1075ms 
+ [22-10-2025 12:05:45 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:05:45 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 2.8316ms 
+ [22-10-2025 12:05:45 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:05:45 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.8039ms 
+ [22-10-2025 12:05:45 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:05:45 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3184ms 
+ [22-10-2025 12:06:07 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 12:06:07 INF] CORS policy execution successful. 
+ [22-10-2025 12:06:07 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:06:07 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 12:06:07 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 12:06:08 INF] Executed DbCommand (17ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 12:06:08 INF] User with username { Username} found 
+ [22-10-2025 12:06:08 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 12:06:08 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 945.4588ms 
+ [22-10-2025 12:06:08 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:06:08 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 979.0583ms 
+ [22-10-2025 12:06:28 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 99 
+ [22-10-2025 12:06:28 INF] CORS policy execution successful. 
+ [22-10-2025 12:06:28 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:06:28 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:06:28 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:06:28 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:06:28 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 63.4344ms 
+ [22-10-2025 12:06:28 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:06:28 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH98NLJ970:0000000B  
+ [22-10-2025 12:06:28 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 92.7701ms 
+ [22-10-2025 12:12:20 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:12:21 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:12:21 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:12:21 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:12:21 INF] Hosting environment: Development 
+ [22-10-2025 12:12:21 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:12:21 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:12:21 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 72.154ms 
+ [22-10-2025 12:12:21 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:12:21 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:12:21 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 2.814ms 
+ [22-10-2025 12:12:21 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.2113ms 
+ [22-10-2025 12:12:21 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:12:21 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.6205ms 
+ [22-10-2025 12:12:24 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:12:24 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 4.4253ms 
+ [22-10-2025 12:12:25 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:12:25 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:12:25 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 1.6368ms 
+ [22-10-2025 12:12:25 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5133ms 
+ [22-10-2025 12:12:25 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:12:25 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4574ms 
+ [22-10-2025 12:12:40 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 12:12:40 INF] CORS policy execution successful. 
+ [22-10-2025 12:12:40 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:12:40 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 12:12:41 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 12:12:41 INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 12:12:41 INF] User with username { Username} found 
+ [22-10-2025 12:12:41 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 12:12:41 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 920.668ms 
+ [22-10-2025 12:12:41 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:12:41 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 954.4262ms 
+ [22-10-2025 12:13:05 INF] Request starting HTTP/2 POST https://localhost:5001/api/budgets - application/json-patch+json 99 
+ [22-10-2025 12:13:05 INF] CORS policy execution successful. 
+ [22-10-2025 12:13:05 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:13:05 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:13:05 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:13:05 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:13:05 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 61.7832ms 
+ [22-10-2025 12:13:05 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:13:05 ERR] NotImplementedException at /api/budgets POST by PetrosLyros | Trace = 0HNGH9CDLS97F:00000013  
+ [22-10-2025 12:13:05 INF] Request finished HTTP/2 POST https://localhost:5001/api/budgets - 500 null application/json 90.5781ms 
+ [22-10-2025 12:15:14 INF] Request starting HTTP/2 POST https://localhost:5001/api/budgets - application/json-patch+json 99 
+ [22-10-2025 12:15:14 INF] CORS policy execution successful. 
+ [22-10-2025 12:15:14 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:15:14 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:15:14 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:15:14 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:15:14 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 13.9127ms 
+ [22-10-2025 12:15:14 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:15:14 ERR] NotImplementedException at /api/budgets POST by PetrosLyros | Trace = 0HNGH9CDLS97F:00000015  
+ [22-10-2025 12:15:14 INF] Request finished HTTP/2 POST https://localhost:5001/api/budgets - 500 null application/json 21.678ms 
+ [22-10-2025 12:32:37 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:32:37 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:32:37 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:32:37 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:32:37 INF] Hosting environment: Development 
+ [22-10-2025 12:32:37 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:32:38 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:32:38 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 68.381ms 
+ [22-10-2025 12:32:38 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:32:38 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:32:38 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.1195ms 
+ [22-10-2025 12:32:38 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.5947ms 
+ [22-10-2025 12:32:38 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:32:38 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.1422ms 
+ [22-10-2025 12:38:23 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:38:23 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:38:23 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:38:23 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:38:23 INF] Hosting environment: Development 
+ [22-10-2025 12:38:23 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:38:23 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:38:23 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 71.37ms 
+ [22-10-2025 12:38:23 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:38:23 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:38:23 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.4895ms 
+ [22-10-2025 12:38:23 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.3502ms 
+ [22-10-2025 12:38:23 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:38:23 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.605ms 
+ [22-10-2025 12:38:43 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 12:38:43 INF] CORS policy execution successful. 
+ [22-10-2025 12:38:43 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:38:43 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 12:38:43 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 12:38:44 INF] Executed DbCommand (15ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 12:38:44 INF] User with username { Username} found 
+ [22-10-2025 12:38:44 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 12:38:44 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 904.2517ms 
+ [22-10-2025 12:38:44 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:38:44 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 938.407ms 
+ [22-10-2025 12:39:16 INF] Request starting HTTP/2 POST https://localhost:5001/api/Expenses/CreateExpense - application/json-patch+json 113 
+ [22-10-2025 12:39:16 INF] CORS policy execution successful. 
+ [22-10-2025 12:39:16 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp)' 
+ [22-10-2025 12:39:16 INF] Route matched with {action = "CreateExpense", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]] CreateExpense(ExpensesTrackerApp.DTO.ExpenseInsertDTO) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [22-10-2025 12:39:16 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:39:16 INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Name] = @__name_0 
+ [22-10-2025 12:39:16 INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ExpenseCategories] ([DeletedAt], [InsertedAt], [Name], [isDeleted])
+OUTPUT INSERTED.[Id], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3); 
+ [22-10-2025 12:39:16 INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?' (DbType = Int32), @p7='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Expenses] ([Amount], [Date], [DeletedAt], [ExpenseCategoryId], [InsertedAt], [Title], [UserId], [isDeleted])
+OUTPUT INSERTED.[Id], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7); 
+ [22-10-2025 12:39:16 INF] Expense created successfully for user 1 in category 6 
+ [22-10-2025 12:39:16 INF] Executing CreatedAtActionResult, writing value of type 'ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO'. 
+ [22-10-2025 12:39:16 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp) in 179.539ms 
+ [22-10-2025 12:39:16 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp)' 
+ [22-10-2025 12:39:16 INF] Request finished HTTP/2 POST https://localhost:5001/api/Expenses/CreateExpense - 201 117 application/json; charset=utf-8 210.287ms 
+ [22-10-2025 12:40:03 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 98 
+ [22-10-2025 12:40:03 INF] CORS policy execution successful. 
+ [22-10-2025 12:40:03 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:40:03 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:40:03 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:40:03 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:40:03 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 19.7967ms 
+ [22-10-2025 12:40:03 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:40:03 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGH9QV95VNE:0000000D  
+ [22-10-2025 12:40:03 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 32.3725ms 
+ [22-10-2025 12:48:11 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:48:12 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:48:12 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:48:12 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:48:12 INF] Hosting environment: Development 
+ [22-10-2025 12:48:12 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:48:30 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:48:30 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:48:30 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:48:30 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:48:30 INF] Hosting environment: Development 
+ [22-10-2025 12:48:30 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:48:31 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:48:31 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 75.0031ms 
+ [22-10-2025 12:48:31 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:48:31 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.2249ms 
+ [22-10-2025 12:48:31 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:48:31 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.4128ms 
+ [22-10-2025 12:48:31 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:48:31 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.6623ms 
+ [22-10-2025 12:53:54 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 12:53:54 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 12:53:54 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 12:53:54 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 12:53:54 INF] Hosting environment: Development 
+ [22-10-2025 12:53:54 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 12:53:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 12:53:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 65.0701ms 
+ [22-10-2025 12:53:55 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 12:53:55 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 12:53:55 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.1203ms 
+ [22-10-2025 12:53:55 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.8705ms 
+ [22-10-2025 12:53:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 12:53:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.6593ms 
+ [22-10-2025 12:54:13 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 12:54:13 INF] CORS policy execution successful. 
+ [22-10-2025 12:54:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:54:13 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 12:54:14 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 12:54:14 INF] Executed DbCommand (18ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 12:54:14 INF] User with username { Username} found 
+ [22-10-2025 12:54:14 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 12:54:14 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 984.531ms 
+ [22-10-2025 12:54:14 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 12:54:14 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1034.6918ms 
+ [22-10-2025 12:54:59 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 103 
+ [22-10-2025 12:54:59 INF] CORS policy execution successful. 
+ [22-10-2025 12:54:59 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:54:59 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:54:59 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:54:59 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:54:59 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 63.0797ms 
+ [22-10-2025 12:54:59 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:54:59 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGHA3KRQJAT:0000000B  
+ [22-10-2025 12:54:59 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 94.9024ms 
+ [22-10-2025 12:55:15 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json 103 
+ [22-10-2025 12:55:15 INF] CORS policy execution successful. 
+ [22-10-2025 12:55:15 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:55:15 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 12:55:15 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 12:55:15 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 12:55:15 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 14.0454ms 
+ [22-10-2025 12:55:15 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 12:55:15 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGHA3KRQJAT:0000000D  
+ [22-10-2025 12:55:15 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 21.7906ms 
+ [22-10-2025 13:25:43 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 13:25:43 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 13:25:43 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 13:25:43 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 13:25:43 INF] Hosting environment: Development 
+ [22-10-2025 13:25:43 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 13:25:43 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 13:25:43 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 68.6015ms 
+ [22-10-2025 13:25:43 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 13:25:43 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 13:25:43 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.4264ms 
+ [22-10-2025 13:25:43 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.6479ms 
+ [22-10-2025 13:25:43 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 13:25:43 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.9787ms 
+ [22-10-2025 13:26:50 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 13:26:50 INF] CORS policy execution successful. 
+ [22-10-2025 13:26:50 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 13:26:50 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 13:26:50 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 13:26:50 INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 13:26:51 INF] User with username { Username} found 
+ [22-10-2025 13:26:51 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 13:26:51 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 968.093ms 
+ [22-10-2025 13:26:51 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 13:26:51 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1002.2775ms 
+ [22-10-2025 13:27:10 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets - application/json-patch+json 99 
+ [22-10-2025 13:27:10 INF] CORS policy execution successful. 
+ [22-10-2025 13:27:10 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 13:27:10 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 13:27:11 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 13:27:11 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 13:27:11 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 63.1692ms 
+ [22-10-2025 13:27:11 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 13:27:11 ERR] NotImplementedException at /api/Budgets POST by PetrosLyros | Trace = 0HNGHALDNAE53:0000000B  
+ [22-10-2025 13:27:11 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets - 500 null application/json 94.1694ms 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 
+ [22-10-2025 14:00:56 INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END; 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+ [22-10-2025 14:00:56 INF] Applying migration '20251022110041_editbudget'. 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var sysname;
+SELECT @var = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Budgets]') AND [c].[name] = N'StartDate');
+IF @var IS NOT NULL EXEC(N'ALTER TABLE [Budgets] DROP CONSTRAINT [' + @var + '];');
+ALTER TABLE [Budgets] ALTER COLUMN [StartDate] date NOT NULL; 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Budgets]') AND [c].[name] = N'EndDate');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [Budgets] DROP CONSTRAINT [' + @var1 + '];');
+ALTER TABLE [Budgets] ALTER COLUMN [EndDate] date NOT NULL; 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251022110041_editbudget', N'9.0.9'); 
+ [22-10-2025 14:00:56 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result 
+ [22-10-2025 14:13:01 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 14:13:01 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 14:13:01 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 14:13:01 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 14:13:01 INF] Hosting environment: Development 
+ [22-10-2025 14:13:01 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 14:13:01 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 14:13:01 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 90.5191ms 
+ [22-10-2025 14:13:01 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 14:13:01 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.2137ms 
+ [22-10-2025 14:13:01 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 14:13:01 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8732ms 
+ [22-10-2025 14:13:01 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 14:13:01 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.9627ms 
+ [22-10-2025 16:32:50 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 16:32:50 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 16:32:50 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 16:32:50 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 16:32:50 INF] Hosting environment: Development 
+ [22-10-2025 16:32:50 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 16:32:50 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 16:32:50 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 86.6583ms 
+ [22-10-2025 16:32:50 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 16:32:50 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.9187ms 
+ [22-10-2025 16:32:50 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 16:32:50 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.8263ms 
+ [22-10-2025 16:32:50 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 16:32:50 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7323ms 
+ [22-10-2025 16:33:05 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [22-10-2025 16:33:05 INF] CORS policy execution successful. 
+ [22-10-2025 16:33:05 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 16:33:05 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [22-10-2025 16:33:05 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [22-10-2025 16:33:06 INF] Executed DbCommand (25ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [22-10-2025 16:33:07 INF] User with username { Username} found 
+ [22-10-2025 16:33:07 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [22-10-2025 16:33:07 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 1219.058ms 
+ [22-10-2025 16:33:07 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [22-10-2025 16:33:07 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1263.1881ms 
+ [22-10-2025 16:33:31 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 127 
+ [22-10-2025 16:33:31 INF] CORS policy execution successful. 
+ [22-10-2025 16:33:31 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:33:31 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 16:33:31 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 16:33:31 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 16:33:31 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 75.0526ms 
+ [22-10-2025 16:33:31 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:33:31 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGHDTVI5KPU:0000000B  
+ [22-10-2025 16:33:31 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 110.6144ms 
+ [22-10-2025 16:35:56 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 129 
+ [22-10-2025 16:35:56 INF] CORS policy execution successful. 
+ [22-10-2025 16:35:56 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:35:56 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 16:35:56 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [22-10-2025 16:35:56 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 18.1617ms 
+ [22-10-2025 16:35:56 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:35:56 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 400 364 application/problem+json; charset=utf-8 28.9349ms 
+ [22-10-2025 16:36:11 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 129 
+ [22-10-2025 16:36:11 INF] CORS policy execution successful. 
+ [22-10-2025 16:36:11 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:36:11 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 16:36:11 INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 16:36:11 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 16:36:11 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 14.5745ms 
+ [22-10-2025 16:36:11 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:36:11 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGHDTVI5KPV:00000003  
+ [22-10-2025 16:36:11 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 32.326ms 
+ [22-10-2025 16:36:23 INF] Request starting HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - application/json-patch+json 126 
+ [22-10-2025 16:36:23 INF] CORS policy execution successful. 
+ [22-10-2025 16:36:23 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:36:23 INF] Route matched with {action = "CreateBudget", controller = "Budgets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.BudgetReadOnlyDTO]] CreateBudget(ExpensesTrackerApp.DTO.BudgetInsertDTO) on controller ExpensesTrackerApp.Controllers.BudgetsController (ExpensesTrackerApp). 
+ [22-10-2025 16:36:23 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [22-10-2025 16:36:23 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Id] = @__p_0 
+ [22-10-2025 16:36:23 INF] Executed action ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp) in 6.3697ms 
+ [22-10-2025 16:36:23 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.BudgetsController.CreateBudget (ExpensesTrackerApp)' 
+ [22-10-2025 16:36:23 ERR] NotImplementedException at /api/Budgets/CreateBudget POST by PetrosLyros | Trace = 0HNGHDTVI5KPV:00000005  
+ [22-10-2025 16:36:23 INF] Request finished HTTP/2 POST https://localhost:5001/api/Budgets/CreateBudget - 500 null application/json 15.2559ms 
+ [22-10-2025 16:41:48 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [22-10-2025 16:41:48 INF] Now listening on: https://localhost:5001 
+ [22-10-2025 16:41:48 INF] Now listening on: http://localhost:5000 
+ [22-10-2025 16:41:48 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [22-10-2025 16:41:48 INF] Application started. Press Ctrl+C to shut down. 
+ [22-10-2025 16:41:48 INF] Hosting environment: Development 
+ [22-10-2025 16:41:48 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [22-10-2025 16:41:49 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 85.6542ms 
+ [22-10-2025 16:41:49 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [22-10-2025 16:41:49 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [22-10-2025 16:41:49 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.3597ms 
+ [22-10-2025 16:41:49 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.6385ms 
+ [22-10-2025 16:41:49 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [22-10-2025 16:41:49 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.2108ms 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 
+ [22-10-2025 16:41:55 INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END; 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+ [22-10-2025 16:41:55 INF] Applying migration '20251022134148_editdatebudgetentity'. 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var sysname;
+SELECT @var = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Budgets]') AND [c].[name] = N'StartDate');
+IF @var IS NOT NULL EXEC(N'ALTER TABLE [Budgets] DROP CONSTRAINT [' + @var + '];');
+ALTER TABLE [Budgets] ALTER COLUMN [StartDate] datetime2 NOT NULL; 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Budgets]') AND [c].[name] = N'EndDate');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [Budgets] DROP CONSTRAINT [' + @var1 + '];');
+ALTER TABLE [Budgets] ALTER COLUMN [EndDate] datetime2 NOT NULL; 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251022134148_editdatebudgetentity', N'9.0.9'); 
+ [22-10-2025 16:41:55 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result 
+ 

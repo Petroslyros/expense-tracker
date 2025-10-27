@@ -1,0 +1,15 @@
+[15-10-2025 08:35:01 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [15-10-2025 08:35:01 WRN] Using an in-memory repository. Keys will not be persisted to storage. 
+ [15-10-2025 08:35:01 WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits. 
+ [15-10-2025 08:35:01 INF] Creating key {5c3fc11b-8b2a-4182-958f-aa01f95f0cd7} with creation date 2025-10-15 08:35:01Z, activation date 2025-10-15 08:35:01Z, and expiration date 2026-01-13 08:35:01Z. 
+ [15-10-2025 08:35:01 WRN] No XML encryptor configured. Key {5c3fc11b-8b2a-4182-958f-aa01f95f0cd7} may be persisted to storage in unencrypted form. 
+ [15-10-2025 08:35:01 INF] Now listening on: http://[::]:8080 
+ [15-10-2025 08:35:01 INF] Now listening on: https://[::]:8081 
+ [15-10-2025 08:35:01 INF] Application started. Press Ctrl+C to shut down. 
+ [15-10-2025 08:35:01 INF] Hosting environment: Development 
+ [15-10-2025 08:35:01 INF] Content root path: /app 
+ [15-10-2025 08:35:01 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/index.html - null null 
+ [15-10-2025 08:35:01 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/index.html - 200 null text/html;charset=utf-8 59.2177ms 
+ [15-10-2025 08:35:01 INF] Request starting HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - null null 
+ [15-10-2025 08:35:01 INF] Request finished HTTP/2 GET https://localhost:32769/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.8509ms 
+ 

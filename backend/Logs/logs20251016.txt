@@ -1,0 +1,27 @@
+[16-10-2025 11:17:54 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+ [16-10-2025 11:17:54 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [16-10-2025 11:17:54 INF] Now listening on: https://localhost:5001 
+ [16-10-2025 11:17:54 INF] Now listening on: http://localhost:5000 
+ [16-10-2025 11:17:54 INF] Application started. Press Ctrl+C to shut down. 
+ [16-10-2025 11:17:54 INF] Hosting environment: Development 
+ [16-10-2025 11:17:54 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [16-10-2025 11:17:54 INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null 
+ [16-10-2025 11:17:55 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 301 0 null 61.0722ms 
+ [16-10-2025 11:17:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [16-10-2025 11:17:55 WRN] Unable to contact VS to retrieve Browser Link script tag. 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 45.1532ms 
+ [16-10-2025 11:17:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - null null 
+ [16-10-2025 11:17:55 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [16-10-2025 11:17:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - null null 
+ [16-10-2025 11:17:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - null null 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.2563ms 
+ [16-10-2025 11:17:55 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [16-10-2025 11:17:55 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - 200 152034 text/css 11.6483ms 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 12.8221ms 
+ [16-10-2025 11:17:55 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 20.7669ms 
+ [16-10-2025 11:17:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [16-10-2025 11:17:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.9666ms 
+ 

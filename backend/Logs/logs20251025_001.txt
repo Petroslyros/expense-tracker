@@ -1,0 +1,1126 @@
+[25-10-2025 11:35:28 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [25-10-2025 11:35:28 ERR] Hosting failed to start 
+ System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[25-10-2025 12:04:48 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [25-10-2025 12:04:48 INF] Now listening on: https://localhost:5001 
+ [25-10-2025 12:04:48 INF] Now listening on: http://localhost:5000 
+ [25-10-2025 12:04:49 INF] Application started. Press Ctrl+C to shut down. 
+ [25-10-2025 12:04:49 INF] Hosting environment: Development 
+ [25-10-2025 12:04:49 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [25-10-2025 12:04:49 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [25-10-2025 12:04:49 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 92.9789ms 
+ [25-10-2025 12:04:49 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [25-10-2025 12:04:49 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.6278ms 
+ [25-10-2025 12:04:49 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [25-10-2025 12:04:49 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.3179ms 
+ [25-10-2025 12:04:49 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [25-10-2025 12:04:49 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2925ms 
+ [25-10-2025 12:05:55 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [25-10-2025 12:05:55 INF] Now listening on: https://localhost:5001 
+ [25-10-2025 12:05:55 INF] Now listening on: http://localhost:5000 
+ [25-10-2025 12:05:55 INF] Application started. Press Ctrl+C to shut down. 
+ [25-10-2025 12:05:55 INF] Hosting environment: Development 
+ [25-10-2025 12:05:55 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [25-10-2025 12:05:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [25-10-2025 12:05:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 70.8652ms 
+ [25-10-2025 12:05:55 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [25-10-2025 12:05:55 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.2056ms 
+ [25-10-2025 12:05:55 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [25-10-2025 12:05:55 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.2034ms 
+ [25-10-2025 12:05:56 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [25-10-2025 12:05:56 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7627ms 
+ [25-10-2025 12:30:02 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [25-10-2025 12:30:02 INF] Now listening on: https://localhost:5001 
+ [25-10-2025 12:30:02 INF] Now listening on: http://localhost:5000 
+ [25-10-2025 12:30:02 INF] Application started. Press Ctrl+C to shut down. 
+ [25-10-2025 12:30:02 INF] Hosting environment: Development 
+ [25-10-2025 12:30:02 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [25-10-2025 12:30:03 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [25-10-2025 12:30:03 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 75.951ms 
+ [25-10-2025 12:30:03 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [25-10-2025 12:30:03 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.0732ms 
+ [25-10-2025 12:30:03 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [25-10-2025 12:30:03 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.9126ms 
+ [25-10-2025 12:30:03 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [25-10-2025 12:30:03 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4125ms 
+ [25-10-2025 12:46:49 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [25-10-2025 12:46:49 INF] Now listening on: https://localhost:5001 
+ [25-10-2025 12:46:49 INF] Now listening on: http://localhost:5000 
+ [25-10-2025 12:46:49 INF] Application started. Press Ctrl+C to shut down. 
+ [25-10-2025 12:46:49 INF] Hosting environment: Development 
+ [25-10-2025 12:46:49 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [25-10-2025 12:46:58 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 12:46:58 INF] CORS policy execution successful. 
+ [25-10-2025 12:46:58 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 20.5072ms 
+ [25-10-2025 12:46:58 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 73 
+ [25-10-2025 12:46:58 INF] CORS policy execution successful. 
+ [25-10-2025 12:46:58 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:46:58 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 12:46:58 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [25-10-2025 12:46:59 INF] Executed DbCommand (19ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 12:46:59 INF] User with username { Username} found 
+ [25-10-2025 12:46:59 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 12:46:59 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 868.8143ms 
+ [25-10-2025 12:46:59 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:46:59 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 905.313ms 
+ [25-10-2025 12:46:59 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:46:59 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:46:59 INF] CORS policy execution successful. 
+ [25-10-2025 12:46:59 INF] CORS policy execution successful. 
+ [25-10-2025 12:46:59 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 204 null null 4.5707ms 
+ [25-10-2025 12:46:59 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 204 null null 5.1651ms 
+ [25-10-2025 12:46:59 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:46:59 INF] CORS policy execution successful. 
+ [25-10-2025 12:46:59 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 404 0 null 23.0589ms 
+ [25-10-2025 12:46:59 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:46:59 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/expenses/paginated, Response status code: 404 
+ [25-10-2025 12:46:59 INF] CORS policy execution successful. 
+ [25-10-2025 12:46:59 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 404 0 null 6.5308ms 
+ [25-10-2025 12:46:59 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/expenses/paginated, Response status code: 404 
+ [25-10-2025 12:47:47 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 12:47:47 INF] CORS policy execution successful. 
+ [25-10-2025 12:47:47 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 3.0863ms 
+ [25-10-2025 12:47:47 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 69 
+ [25-10-2025 12:47:47 INF] CORS policy execution successful. 
+ [25-10-2025 12:47:47 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:47:47 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 12:47:47 INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 12:47:48 INF] User with username { Username} found 
+ [25-10-2025 12:47:48 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 12:47:48 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 130.7733ms 
+ [25-10-2025 12:47:48 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:47:48 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 706 application/json; charset=utf-8 139.413ms 
+ [25-10-2025 12:47:48 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:47:48 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:47:48 INF] CORS policy execution successful. 
+ [25-10-2025 12:47:48 INF] CORS policy execution successful. 
+ [25-10-2025 12:47:48 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 204 null null 4.5629ms 
+ [25-10-2025 12:47:48 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 204 null null 5.0577ms 
+ [25-10-2025 12:47:48 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:47:48 INF] CORS policy execution successful. 
+ [25-10-2025 12:47:48 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 404 0 null 5.9038ms 
+ [25-10-2025 12:47:48 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:47:48 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/expenses/paginated, Response status code: 404 
+ [25-10-2025 12:47:48 INF] CORS policy execution successful. 
+ [25-10-2025 12:47:48 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/paginated?pageNumber=1&pageSize=10 - 404 0 null 6.2342ms 
+ [25-10-2025 12:47:48 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/expenses/paginated, Response status code: 404 
+ [25-10-2025 12:50:23 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:50:23 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:50:23 INF] CORS policy execution successful. 
+ [25-10-2025 12:50:23 INF] CORS policy execution successful. 
+ [25-10-2025 12:50:23 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - 204 null null 4.2836ms 
+ [25-10-2025 12:50:23 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - 204 null null 4.7141ms 
+ [25-10-2025 12:50:23 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:50:23 INF] CORS policy execution successful. 
+ [25-10-2025 12:50:23 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - 404 0 null 7.3995ms 
+ [25-10-2025 12:50:23 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:50:23 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/expenses, Response status code: 404 
+ [25-10-2025 12:50:23 INF] CORS policy execution successful. 
+ [25-10-2025 12:50:23 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses?pageNumber=1&pageSize=10 - 404 0 null 5.7628ms 
+ [25-10-2025 12:50:23 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/expenses, Response status code: 404 
+ [25-10-2025 12:52:38 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 12:52:38 INF] CORS policy execution successful. 
+ [25-10-2025 12:52:38 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 2.6ms 
+ [25-10-2025 12:52:38 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 73 
+ [25-10-2025 12:52:38 INF] CORS policy execution successful. 
+ [25-10-2025 12:52:38 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:52:38 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 12:52:38 INF] User with username { Username} found 
+ [25-10-2025 12:52:38 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 12:52:38 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 110.9516ms 
+ [25-10-2025 12:52:38 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:52:38 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 694 application/json; charset=utf-8 118.6947ms 
+ [25-10-2025 12:52:38 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:52:38 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:52:38 INF] CORS policy execution successful. 
+ [25-10-2025 12:52:38 INF] CORS policy execution successful. 
+ [25-10-2025 12:52:38 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.5166ms 
+ [25-10-2025 12:52:38 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.8851ms 
+ [25-10-2025 12:52:38 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:52:38 INF] CORS policy execution successful. 
+ [25-10-2025 12:52:38 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:52:38 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:52:38 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:52:38 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 102.7479ms 
+ [25-10-2025 12:52:38 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:52:38 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:52:38 INF] CORS policy execution successful. 
+ [25-10-2025 12:52:38 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 419 application/json; charset=utf-8 119.7075ms 
+ [25-10-2025 12:52:38 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:52:38 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:52:38 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:52:38 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:52:38 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 10.4493ms 
+ [25-10-2025 12:52:38 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:52:38 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 419 application/json; charset=utf-8 20.644ms 
+ [25-10-2025 12:54:26 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:54:26 INF] CORS policy execution successful. 
+ [25-10-2025 12:54:26 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 2.8328ms 
+ [25-10-2025 12:54:26 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:54:26 INF] CORS policy execution successful. 
+ [25-10-2025 12:54:26 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:54:26 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:54:26 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:54:26 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:54:26 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:54:26 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:54:26 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 11.6852ms 
+ [25-10-2025 12:54:26 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:54:26 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 419 application/json; charset=utf-8 20.0733ms 
+ [25-10-2025 12:54:39 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:54:39 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:54:39 INF] CORS policy execution successful. 
+ [25-10-2025 12:54:39 INF] CORS policy execution successful. 
+ [25-10-2025 12:54:39 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.7671ms 
+ [25-10-2025 12:54:39 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.7827ms 
+ [25-10-2025 12:54:39 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:54:39 INF] CORS policy execution successful. 
+ [25-10-2025 12:54:39 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:54:39 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:54:39 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:54:39 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:54:39 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:54:39 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:54:39 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.0684ms 
+ [25-10-2025 12:54:39 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:54:39 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:54:39 INF] CORS policy execution successful. 
+ [25-10-2025 12:54:39 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 419 application/json; charset=utf-8 20.8536ms 
+ [25-10-2025 12:54:39 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:54:39 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:54:39 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:54:39 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:54:39 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:54:39 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:54:39 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.3263ms 
+ [25-10-2025 12:54:39 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:54:39 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 419 application/json; charset=utf-8 19.1225ms 
+ [25-10-2025 12:55:13 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/createexpense - null null 
+ [25-10-2025 12:55:13 INF] CORS policy execution successful. 
+ [25-10-2025 12:55:13 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/createexpense - 204 null null 3.0021ms 
+ [25-10-2025 12:55:13 INF] Request starting HTTP/2 POST https://localhost:5001/api/expenses/createexpense - application/json 95 
+ [25-10-2025 12:55:13 INF] CORS policy execution successful. 
+ [25-10-2025 12:55:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp)' 
+ [25-10-2025 12:55:13 INF] Route matched with {action = "CreateExpense", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]] CreateExpense(ExpensesTrackerApp.DTO.ExpenseInsertDTO) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [e].[Id], [e].[DeletedAt], [e].[InsertedAt], [e].[ModifiedAt], [e].[Name], [e].[isDeleted]
+FROM [ExpenseCategories] AS [e]
+WHERE [e].[Name] = @__name_0 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ExpenseCategories] ([DeletedAt], [InsertedAt], [Name], [isDeleted])
+OUTPUT INSERTED.[Id], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3); 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?' (DbType = Int32), @p7='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Expenses] ([Amount], [Date], [DeletedAt], [ExpenseCategoryId], [InsertedAt], [Title], [UserId], [isDeleted])
+OUTPUT INSERTED.[Id], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7); 
+ [25-10-2025 12:55:13 INF] Expense created successfully for user 1 in category 9 
+ [25-10-2025 12:55:13 INF] Executing CreatedAtActionResult, writing value of type 'ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO'. 
+ [25-10-2025 12:55:13 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp) in 112.0028ms 
+ [25-10-2025 12:55:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.CreateExpense (ExpensesTrackerApp)' 
+ [25-10-2025 12:55:13 INF] Request finished HTTP/2 POST https://localhost:5001/api/expenses/createexpense - 201 113 application/json; charset=utf-8 122.48ms 
+ [25-10-2025 12:55:13 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:55:13 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:55:13 INF] CORS policy execution successful. 
+ [25-10-2025 12:55:13 INF] CORS policy execution successful. 
+ [25-10-2025 12:55:13 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.4817ms 
+ [25-10-2025 12:55:13 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 5.0749ms 
+ [25-10-2025 12:55:13 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:55:13 INF] CORS policy execution successful. 
+ [25-10-2025 12:55:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:55:13 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:55:13 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:55:13 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 10.5505ms 
+ [25-10-2025 12:55:13 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:55:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:55:13 INF] CORS policy execution successful. 
+ [25-10-2025 12:55:13 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 22.4778ms 
+ [25-10-2025 12:55:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:55:13 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:55:13 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:55:13 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:55:13 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 8.7252ms 
+ [25-10-2025 12:55:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:55:13 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 18.457ms 
+ [25-10-2025 12:56:16 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:56:16 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:56:16 INF] CORS policy execution successful. 
+ [25-10-2025 12:56:16 INF] CORS policy execution successful. 
+ [25-10-2025 12:56:16 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.2856ms 
+ [25-10-2025 12:56:16 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.8092ms 
+ [25-10-2025 12:56:16 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:56:16 INF] CORS policy execution successful. 
+ [25-10-2025 12:56:16 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:16 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:56:16 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:56:16 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:56:16 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:56:16 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:56:16 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 11.4514ms 
+ [25-10-2025 12:56:16 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:56:16 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:16 INF] CORS policy execution successful. 
+ [25-10-2025 12:56:16 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 22.286ms 
+ [25-10-2025 12:56:16 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:16 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:56:16 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:56:16 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:56:16 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:56:16 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:56:16 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 8.4621ms 
+ [25-10-2025 12:56:16 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:16 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 17.3781ms 
+ [25-10-2025 12:56:19 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:56:19 INF] CORS policy execution successful. 
+ [25-10-2025 12:56:19 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:19 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:56:19 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:56:19 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:56:19 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:56:19 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:56:19 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 15.0561ms 
+ [25-10-2025 12:56:19 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:56:19 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:19 INF] CORS policy execution successful. 
+ [25-10-2025 12:56:19 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 24.838ms 
+ [25-10-2025 12:56:19 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:19 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:56:19 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:56:19 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:56:19 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:56:19 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:56:19 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.6053ms 
+ [25-10-2025 12:56:19 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:56:19 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 19.0959ms 
+ [25-10-2025 12:57:04 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 12:57:04 INF] CORS policy execution successful. 
+ [25-10-2025 12:57:04 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 2.8998ms 
+ [25-10-2025 12:57:04 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 68 
+ [25-10-2025 12:57:04 INF] CORS policy execution successful. 
+ [25-10-2025 12:57:04 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:57:04 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 12:57:04 INF] User with username { Username} found 
+ [25-10-2025 12:57:04 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 12:57:04 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 101.1332ms 
+ [25-10-2025 12:57:04 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 12:57:04 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 706 application/json; charset=utf-8 109.0825ms 
+ [25-10-2025 12:57:04 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:57:04 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 12:57:04 INF] CORS policy execution successful. 
+ [25-10-2025 12:57:04 INF] CORS policy execution successful. 
+ [25-10-2025 12:57:04 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.5139ms 
+ [25-10-2025 12:57:04 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.9245ms 
+ [25-10-2025 12:57:04 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:57:04 INF] CORS policy execution successful. 
+ [25-10-2025 12:57:04 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:57:04 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:57:04 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:57:04 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.1341ms 
+ [25-10-2025 12:57:04 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 12:57:04 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:57:04 INF] CORS policy execution successful. 
+ [25-10-2025 12:57:04 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 295 application/json; charset=utf-8 21.9912ms 
+ [25-10-2025 12:57:04 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:57:04 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 12:57:04 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 12:57:04 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 12:57:04 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.3417ms 
+ [25-10-2025 12:57:04 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 12:57:04 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 295 application/json; charset=utf-8 19.4914ms 
+ [25-10-2025 13:06:07 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 13:06:07 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:07 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 2.8686ms 
+ [25-10-2025 13:06:07 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 74 
+ [25-10-2025 13:06:07 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:07 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 13:06:07 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 13:06:07 INF] Executed DbCommand (11ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 13:06:08 INF] User with username { Username} found 
+ [25-10-2025 13:06:08 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 13:06:08 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 114.5463ms 
+ [25-10-2025 13:06:08 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 13:06:08 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 122.2753ms 
+ [25-10-2025 13:06:08 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:06:08 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:06:08 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:08 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:08 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.548ms 
+ [25-10-2025 13:06:08 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.9862ms 
+ [25-10-2025 13:06:08 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:06:08 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:08 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:06:08 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 13:06:08 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:06:08 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 13:06:08 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 13:06:08 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:06:08 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 11.1803ms 
+ [25-10-2025 13:06:08 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:06:08 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:06:08 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:08 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 22.9392ms 
+ [25-10-2025 13:06:08 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:06:08 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 13:06:08 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:06:08 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 13:06:08 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 13:06:08 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:06:08 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.3673ms 
+ [25-10-2025 13:06:08 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:06:08 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 19.2589ms 
+ [25-10-2025 13:06:18 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:06:18 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:06:18 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:18 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 204 null null 4.3431ms 
+ [25-10-2025 13:06:18 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:18 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:06:18 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 204 null null 7.1279ms 
+ [25-10-2025 13:06:18 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:18 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 404 0 null 6.2891ms 
+ [25-10-2025 13:06:18 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:06:18 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/Users/GetPaginatedUsers, Response status code: 404 
+ [25-10-2025 13:06:18 INF] CORS policy execution successful. 
+ [25-10-2025 13:06:18 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 404 0 null 5.1574ms 
+ [25-10-2025 13:06:18 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/Users/GetPaginatedUsers, Response status code: 404 
+ [25-10-2025 13:07:12 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 13:07:12 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:12 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 2.8568ms 
+ [25-10-2025 13:07:12 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 69 
+ [25-10-2025 13:07:12 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:12 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:12 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 13:07:12 INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 13:07:13 INF] User with username { Username} found 
+ [25-10-2025 13:07:13 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 13:07:13 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 101.0979ms 
+ [25-10-2025 13:07:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:13 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 706 application/json; charset=utf-8 108.4613ms 
+ [25-10-2025 13:07:13 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:07:13 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:07:13 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:13 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:13 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.1614ms 
+ [25-10-2025 13:07:13 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.6996ms 
+ [25-10-2025 13:07:13 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:07:13 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:13 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 13:07:13 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:07:13 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 13:07:13 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 13:07:13 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:07:13 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 10.9455ms 
+ [25-10-2025 13:07:13 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:07:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:13 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:13 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 295 application/json; charset=utf-8 22.5023ms 
+ [25-10-2025 13:07:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:13 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 13:07:13 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:07:13 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 13:07:13 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 13:07:13 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:07:13 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 9.2061ms 
+ [25-10-2025 13:07:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:13 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 295 application/json; charset=utf-8 18.7256ms 
+ [25-10-2025 13:07:21 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - null null 
+ [25-10-2025 13:07:21 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:21 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/auth/login/access-token - 204 null null 3.3365ms 
+ [25-10-2025 13:07:21 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json 74 
+ [25-10-2025 13:07:21 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:21 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:21 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [25-10-2025 13:07:21 INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [25-10-2025 13:07:21 INF] User with username { Username} found 
+ [25-10-2025 13:07:21 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [25-10-2025 13:07:21 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 101.6448ms 
+ [25-10-2025 13:07:21 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:21 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 109.7662ms 
+ [25-10-2025 13:07:21 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:07:21 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:07:21 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:21 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:21 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 4.919ms 
+ [25-10-2025 13:07:21 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 204 null null 5.5885ms 
+ [25-10-2025 13:07:21 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:07:21 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:21 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:21 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 13:07:21 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:07:21 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 13:07:22 INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 13:07:22 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:07:22 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 11.7094ms 
+ [25-10-2025 13:07:22 INF] Request starting HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:07:22 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:22 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:22 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 23.8875ms 
+ [25-10-2025 13:07:22 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:22 INF] Route matched with {action = "GetPaginatedUserExpenses", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO]]] GetPaginatedUserExpenses(Int32, Int32) on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [25-10-2025 13:07:22 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:07:22 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e1].[Id], [e1].[Amount], [e1].[Date], [e1].[DeletedAt], [e1].[ExpenseCategoryId], [e1].[InsertedAt], [e1].[ModifiedAt], [e1].[Title], [e1].[UserId], [e1].[isDeleted], [e0].[Id], [e0].[DeletedAt], [e0].[InsertedAt], [e0].[ModifiedAt], [e0].[Name], [e0].[isDeleted]
+FROM (
+    SELECT [e].[Id], [e].[Amount], [e].[Date], [e].[DeletedAt], [e].[ExpenseCategoryId], [e].[InsertedAt], [e].[ModifiedAt], [e].[Title], [e].[UserId], [e].[isDeleted]
+    FROM [Expenses] AS [e]
+    WHERE [e].[UserId] = @__userId_0
+    ORDER BY [e].[Date] DESC
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [e1]
+LEFT JOIN [ExpenseCategories] AS [e0] ON [e1].[ExpenseCategoryId] = [e0].[Id]
+ORDER BY [e1].[Date] DESC 
+ [25-10-2025 13:07:22 INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [25-10-2025 13:07:22 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.ExpenseReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:07:22 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp) in 10.0308ms 
+ [25-10-2025 13:07:22 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetPaginatedUserExpenses (ExpensesTrackerApp)' 
+ [25-10-2025 13:07:22 INF] Request finished HTTP/2 GET https://localhost:5001/api/expenses/getpaginateduserexpenses?pageNumber=1&pageSize=10 - 200 533 application/json; charset=utf-8 21.0691ms 
+ [25-10-2025 13:07:23 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:07:23 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:07:23 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:23 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:23 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 204 null null 4.7017ms 
+ [25-10-2025 13:07:23 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 204 null null 5.1891ms 
+ [25-10-2025 13:07:23 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:07:23 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:23 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 404 0 null 5.8463ms 
+ [25-10-2025 13:07:23 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:07:23 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/Users/GetPaginatedUsers, Response status code: 404 
+ [25-10-2025 13:07:23 INF] CORS policy execution successful. 
+ [25-10-2025 13:07:23 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetPaginatedUsers?pageNumber=1&pageSize=10 - 404 0 null 5.9718ms 
+ [25-10-2025 13:07:23 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/api/Users/GetPaginatedUsers, Response status code: 404 
+ [25-10-2025 13:07:49 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [25-10-2025 13:07:49 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 52.4176ms 
+ [25-10-2025 13:07:49 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [25-10-2025 13:07:49 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.5878ms 
+ [25-10-2025 13:08:28 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:08:28 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:08:28 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:28 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:28 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 204 null null 4.5781ms 
+ [25-10-2025 13:08:28 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 204 null null 5.0404ms 
+ [25-10-2025 13:08:28 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:08:28 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:28 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:28 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:28 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:08:28 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:08:28 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:08:28 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:08:28 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 20.8694ms 
+ [25-10-2025 13:08:28 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:08:28 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:28 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:28 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 36.1467ms 
+ [25-10-2025 13:08:28 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:28 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:28 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:08:28 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:08:28 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:08:28 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:08:28 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 7.4351ms 
+ [25-10-2025 13:08:28 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:28 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 17.2443ms 
+ [25-10-2025 13:08:46 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - null null 
+ [25-10-2025 13:08:46 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - null null 
+ [25-10-2025 13:08:46 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:46 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:46 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - 204 null null 4.3262ms 
+ [25-10-2025 13:08:46 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - 204 null null 4.9321ms 
+ [25-10-2025 13:08:46 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - application/json null 
+ [25-10-2025 13:08:46 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:46 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:46 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:46 INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:08:46 INF] User found with ID : 1  
+ [25-10-2025 13:08:46 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [25-10-2025 13:08:46 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 7.027ms 
+ [25-10-2025 13:08:46 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - application/json null 
+ [25-10-2025 13:08:46 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:46 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:46 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - 200 119 application/json; charset=utf-8 21.2001ms 
+ [25-10-2025 13:08:46 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:46 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:46 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:08:46 INF] User found with ID : 1  
+ [25-10-2025 13:08:46 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [25-10-2025 13:08:46 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 4.9469ms 
+ [25-10-2025 13:08:46 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:46 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - 200 119 application/json; charset=utf-8 14.3494ms 
+ [25-10-2025 13:08:52 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:08:52 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:08:52 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:52 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:52 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 204 null null 4.7322ms 
+ [25-10-2025 13:08:52 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 204 null null 5.2303ms 
+ [25-10-2025 13:08:52 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:08:52 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:52 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:52 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:52 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:08:52 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:08:52 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:08:52 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:08:52 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 6.9727ms 
+ [25-10-2025 13:08:52 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:08:52 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:52 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:52 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 18.2066ms 
+ [25-10-2025 13:08:52 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:52 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:52 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:08:52 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:08:52 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:08:52 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:08:52 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 6.8115ms 
+ [25-10-2025 13:08:52 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:52 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 16.0152ms 
+ [25-10-2025 13:08:55 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - null null 
+ [25-10-2025 13:08:55 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - null null 
+ [25-10-2025 13:08:55 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:55 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:55 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - 204 null null 4.688ms 
+ [25-10-2025 13:08:55 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/1 - 204 null null 5.38ms 
+ [25-10-2025 13:08:55 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - application/json null 
+ [25-10-2025 13:08:55 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:55 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:55 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:55 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:08:55 INF] User found with ID : 1  
+ [25-10-2025 13:08:55 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [25-10-2025 13:08:55 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 5.2611ms 
+ [25-10-2025 13:08:55 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - application/json null 
+ [25-10-2025 13:08:55 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:55 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:55 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - 200 119 application/json; charset=utf-8 17.4623ms 
+ [25-10-2025 13:08:55 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:55 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:55 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:08:55 INF] User found with ID : 1  
+ [25-10-2025 13:08:55 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [25-10-2025 13:08:55 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 5.087ms 
+ [25-10-2025 13:08:55 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:55 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/getuserbyid/1 - 200 119 application/json; charset=utf-8 14.8854ms 
+ [25-10-2025 13:08:56 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:08:56 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:56 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:56 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:56 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:08:56 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:08:56 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:08:56 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:08:56 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 7.1686ms 
+ [25-10-2025 13:08:56 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:08:56 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:56 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:56 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 16.456ms 
+ [25-10-2025 13:08:56 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:56 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:56 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:08:56 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:08:56 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:08:56 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:08:56 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 7.3628ms 
+ [25-10-2025 13:08:56 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:56 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 17.0159ms 
+ [25-10-2025 13:08:58 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/4 - null null 
+ [25-10-2025 13:08:58 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/4 - null null 
+ [25-10-2025 13:08:58 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:58 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:58 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/4 - 204 null null 4.3211ms 
+ [25-10-2025 13:08:58 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/users/getuserbyid/4 - 204 null null 4.8193ms 
+ [25-10-2025 13:08:58 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/getuserbyid/4 - application/json null 
+ [25-10-2025 13:08:58 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:58 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:58 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:58 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:08:58 INF] User found with ID : 4  
+ [25-10-2025 13:08:58 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [25-10-2025 13:08:58 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 4.5872ms 
+ [25-10-2025 13:08:58 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/getuserbyid/4 - application/json null 
+ [25-10-2025 13:08:58 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:58 INF] CORS policy execution successful. 
+ [25-10-2025 13:08:58 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/getuserbyid/4 - 200 125 application/json; charset=utf-8 16.5195ms 
+ [25-10-2025 13:08:58 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:58 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:08:58 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [25-10-2025 13:08:58 INF] User found with ID : 4  
+ [25-10-2025 13:08:58 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [25-10-2025 13:08:58 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 4.742ms 
+ [25-10-2025 13:08:58 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [25-10-2025 13:08:58 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/getuserbyid/4 - 200 125 application/json; charset=utf-8 13.9219ms 
+ [25-10-2025 13:09:00 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:09:00 INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - null null 
+ [25-10-2025 13:09:00 INF] CORS policy execution successful. 
+ [25-10-2025 13:09:00 INF] CORS policy execution successful. 
+ [25-10-2025 13:09:00 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 204 null null 4.2586ms 
+ [25-10-2025 13:09:00 INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 204 null null 4.8666ms 
+ [25-10-2025 13:09:00 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:09:00 INF] CORS policy execution successful. 
+ [25-10-2025 13:09:00 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:09:00 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:09:00 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:09:00 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:09:00 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:09:00 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:09:00 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 6.9954ms 
+ [25-10-2025 13:09:00 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - application/json null 
+ [25-10-2025 13:09:00 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:09:00 INF] CORS policy execution successful. 
+ [25-10-2025 13:09:00 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 18.1233ms 
+ [25-10-2025 13:09:00 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:09:00 INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.Models.PaginatedResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]]] GetAllUsers(Int32, Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [25-10-2025 13:09:00 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit) 
+ [25-10-2025 13:09:00 INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[isDeleted] = CAST(0 AS bit)
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+ [25-10-2025 13:09:00 INF] Retrieved 3 users from page 1 
+ [25-10-2025 13:09:00 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.Models.PaginatedResult`1[[ExpensesTrackerApp.DTO.UserReadOnlyDTO, ExpensesTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [25-10-2025 13:09:00 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp) in 7.1039ms 
+ [25-10-2025 13:09:00 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetAllUsers (ExpensesTrackerApp)' 
+ [25-10-2025 13:09:00 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/Getallusers?pageNumber=1&pageSize=10 - 200 446 application/json; charset=utf-8 16.4564ms 
+ [25-10-2025 13:09:26 INF] Application is shutting down... 
+ 

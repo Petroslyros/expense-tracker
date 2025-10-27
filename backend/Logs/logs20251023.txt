@@ -1,0 +1,49 @@
+[23-10-2025 16:32:58 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [23-10-2025 16:32:58 INF] Now listening on: https://localhost:5001 
+ [23-10-2025 16:32:58 INF] Now listening on: http://localhost:5000 
+ [23-10-2025 16:32:58 INF] Application started. Press Ctrl+C to shut down. 
+ [23-10-2025 16:32:58 INF] Hosting environment: Development 
+ [23-10-2025 16:32:58 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [23-10-2025 16:32:59 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [23-10-2025 16:32:59 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 75.7689ms 
+ [23-10-2025 16:32:59 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [23-10-2025 16:32:59 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.3879ms 
+ [23-10-2025 16:32:59 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [23-10-2025 16:32:59 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3814ms 
+ [23-10-2025 16:32:59 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [23-10-2025 16:32:59 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.4705ms 
+ [23-10-2025 16:33:07 INF] Request starting HTTP/2 GET https://localhost:5001/api/Expenses/GetTotalAmount - null null 
+ [23-10-2025 16:33:07 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+ [23-10-2025 16:33:07 INF] AuthenticationScheme: Bearer was challenged. 
+ [23-10-2025 16:33:07 INF] Request finished HTTP/2 GET https://localhost:5001/api/Expenses/GetTotalAmount - 401 0 null 19.5832ms 
+ [23-10-2025 16:33:28 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [23-10-2025 16:33:28 INF] CORS policy execution successful. 
+ [23-10-2025 16:33:28 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [23-10-2025 16:33:28 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [23-10-2025 16:33:28 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [23-10-2025 16:33:29 INF] Executed DbCommand (18ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [23-10-2025 16:33:29 INF] User with username { Username} found 
+ [23-10-2025 16:33:29 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [23-10-2025 16:33:29 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 986.6947ms 
+ [23-10-2025 16:33:29 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [23-10-2025 16:33:29 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1015.0735ms 
+ [23-10-2025 16:33:41 INF] Request starting HTTP/2 GET https://localhost:5001/api/Expenses/GetTotalAmount - null null 
+ [23-10-2025 16:33:42 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetTotalAmount (ExpensesTrackerApp)' 
+ [23-10-2025 16:33:42 INF] Route matched with {action = "GetTotalAmount", controller = "Expenses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetTotalAmount() on controller ExpensesTrackerApp.Controllers.ExpensesController (ExpensesTrackerApp). 
+ [23-10-2025 16:33:42 INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+ [23-10-2025 16:33:42 INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([e].[Amount]), 0.0)
+FROM [Expenses] AS [e]
+WHERE [e].[UserId] = @__userId_0 
+ [23-10-2025 16:33:42 INF] Executing OkObjectResult, writing value of type 'System.Decimal'. 
+ [23-10-2025 16:33:42 INF] Executed action ExpensesTrackerApp.Controllers.ExpensesController.GetTotalAmount (ExpensesTrackerApp) in 64.3867ms 
+ [23-10-2025 16:33:42 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.ExpensesController.GetTotalAmount (ExpensesTrackerApp)' 
+ [23-10-2025 16:33:42 INF] Request finished HTTP/2 GET https://localhost:5001/api/Expenses/GetTotalAmount - 200 6 application/json; charset=utf-8 91.8839ms 
+ 

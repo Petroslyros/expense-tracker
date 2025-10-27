@@ -1,0 +1,265 @@
+[18-10-2025 08:43:58 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 08:43:58 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 08:43:58 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 08:43:58 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 08:43:58 INF] Hosting environment: Development 
+ [18-10-2025 08:43:58 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 08:43:58 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 08:43:58 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 84.8704ms 
+ [18-10-2025 08:43:58 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 08:43:58 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 5.1265ms 
+ [18-10-2025 08:43:58 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 08:43:58 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.7116ms 
+ [18-10-2025 08:43:58 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 08:43:58 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.3909ms 
+ [18-10-2025 08:44:24 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 86 
+ [18-10-2025 08:44:24 INF] CORS policy execution successful. 
+ [18-10-2025 08:44:24 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:44:24 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [18-10-2025 08:44:24 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [18-10-2025 08:44:24 INF] Executed DbCommand (18ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [18-10-2025 08:44:25 INF] User with username { Username} found 
+ [18-10-2025 08:44:25 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [18-10-2025 08:44:25 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 1073.036ms 
+ [18-10-2025 08:44:25 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:44:25 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 695 application/json; charset=utf-8 1113.5118ms 
+ [18-10-2025 08:44:47 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/1 - null null 
+ [18-10-2025 08:44:47 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:44:47 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 08:44:47 INF] Executing ForbidResult with authentication schemes (["You can only access your own profile."]). 
+ [18-10-2025 08:44:47 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 4.9756ms 
+ [18-10-2025 08:44:47 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:44:47 ERR] InvalidOperationException at /api/users/1 GET by Anonymous | Trace = 0HNGE15AOPDE9:0000000B  
+ [18-10-2025 08:44:47 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/1 - 500 null application/json 17.4373ms 
+ [18-10-2025 08:48:19 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 08:48:19 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 08:48:19 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 08:48:19 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 08:48:19 INF] Hosting environment: Development 
+ [18-10-2025 08:48:19 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 08:48:20 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 08:48:20 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 71.7604ms 
+ [18-10-2025 08:48:20 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 08:48:20 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 08:48:20 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.1349ms 
+ [18-10-2025 08:48:20 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.6578ms 
+ [18-10-2025 08:48:20 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 08:48:20 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.8ms 
+ [18-10-2025 08:48:32 INF] Request starting HTTP/2 GET https://localhost:5001/api/users/1 - null null 
+ [18-10-2025 08:48:32 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:48:32 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 08:48:32 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [18-10-2025 08:48:32 INF] Executing ForbidResult with authentication schemes ([]). 
+ [18-10-2025 08:48:32 INF] AuthenticationScheme: Bearer was forbidden. 
+ [18-10-2025 08:48:32 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 99.4119ms 
+ [18-10-2025 08:48:32 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:48:32 INF] Request finished HTTP/2 GET https://localhost:5001/api/users/1 - 403 0 null 129.3137ms 
+ [18-10-2025 08:49:43 INF] Request starting HTTP/2 POST https://localhost:5001/api/users/register - application/json-patch+json 173 
+ [18-10-2025 08:49:43 INF] CORS policy execution successful. 
+ [18-10-2025 08:49:43 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.RegisterUser (ExpensesTrackerApp)' 
+ [18-10-2025 08:49:43 INF] Route matched with {action = "RegisterUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] RegisterUser(ExpensesTrackerApp.DTO.UserRegisterDTO) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 08:49:44 INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 
+ [18-10-2025 08:49:44 INF] Executed DbCommand (5ms) [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+ [18-10-2025 08:49:44 INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 255), @p3='?' (DbType = DateTime2), @p4='?' (Size = 255), @p5='?' (DbType = DateTime2), @p6='?' (Size = 255), @p7='?' (Size = 20), @p8='?' (Size = 50), @p9='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([DeletedAt], [Email], [Firstname], [InsertedAt], [Lastname], [ModifiedAt], [Password], [UserRole], [Username], [isDeleted])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9); 
+ [18-10-2025 08:49:44 INF] User registered successfully: OliaNtako 
+ [18-10-2025 08:49:44 INF] Executing CreatedAtActionResult, writing value of type 'ExpensesTrackerApp.DTO.UserReadOnlyDTO'. 
+ [18-10-2025 08:49:44 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.RegisterUser (ExpensesTrackerApp) in 918.2966ms 
+ [18-10-2025 08:49:44 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.RegisterUser (ExpensesTrackerApp)' 
+ [18-10-2025 08:49:44 INF] Request finished HTTP/2 POST https://localhost:5001/api/users/register - 201 125 application/json; charset=utf-8 931.2268ms 
+ [18-10-2025 08:51:02 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 08:51:02 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 08:51:02 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 08:51:02 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 08:51:02 INF] Hosting environment: Development 
+ [18-10-2025 08:51:02 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 08:51:03 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 08:51:03 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 86.3239ms 
+ [18-10-2025 08:51:03 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 08:51:03 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 08:51:03 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.5386ms 
+ [18-10-2025 08:51:03 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.4751ms 
+ [18-10-2025 08:51:03 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 08:51:03 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6183ms 
+ [18-10-2025 08:51:14 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 08:51:14 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 08:51:14 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 08:51:14 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 08:51:14 INF] Hosting environment: Development 
+ [18-10-2025 08:51:14 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 08:51:14 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 08:51:14 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 66.7587ms 
+ [18-10-2025 08:51:14 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 08:51:14 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 08:51:14 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 2.633ms 
+ [18-10-2025 08:51:14 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.0463ms 
+ [18-10-2025 08:51:14 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 08:51:14 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.0454ms 
+ [18-10-2025 08:51:22 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetUserById/1 - null null 
+ [18-10-2025 08:51:22 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:51:22 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 08:51:22 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [18-10-2025 08:51:22 INF] Executing ForbidResult with authentication schemes ([]). 
+ [18-10-2025 08:51:22 INF] AuthenticationScheme: Bearer was forbidden. 
+ [18-10-2025 08:51:22 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 82.9412ms 
+ [18-10-2025 08:51:22 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:51:22 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetUserById/1 - 403 0 null 115.7566ms 
+ [18-10-2025 08:53:15 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 08:53:15 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 08:53:15 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 08:53:15 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 08:53:15 INF] Hosting environment: Development 
+ [18-10-2025 08:53:15 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 08:53:16 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 08:53:16 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 91.319ms 
+ [18-10-2025 08:53:16 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 08:53:16 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.326ms 
+ [18-10-2025 08:53:16 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 08:53:16 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.451ms 
+ [18-10-2025 08:53:16 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 08:53:16 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.3934ms 
+ [18-10-2025 08:56:54 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 08:56:54 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 08:56:54 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 08:56:54 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 08:56:54 INF] Hosting environment: Development 
+ [18-10-2025 08:56:54 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 08:56:54 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 08:56:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 77.7713ms 
+ [18-10-2025 08:56:55 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 08:56:55 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 08:56:55 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 3.6472ms 
+ [18-10-2025 08:56:55 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3735ms 
+ [18-10-2025 08:56:55 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 08:56:55 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.0784ms 
+ [18-10-2025 08:57:01 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetUserById/1 - null null 
+ [18-10-2025 08:57:01 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:57:01 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 08:57:01 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [18-10-2025 08:57:01 INF] Executing ForbidResult with authentication schemes ([]). 
+ [18-10-2025 08:57:01 INF] AuthenticationScheme: Bearer was forbidden. 
+ [18-10-2025 08:57:01 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 83.5417ms 
+ [18-10-2025 08:57:01 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 08:57:01 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetUserById/1 - 403 0 null 111.4473ms 
+ [18-10-2025 08:57:29 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 83 
+ [18-10-2025 08:57:29 INF] CORS policy execution successful. 
+ [18-10-2025 08:57:29 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:57:29 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [18-10-2025 08:57:30 INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [18-10-2025 08:57:30 ERR] Authentication failed for username SpirosKom. Bad Credentials 
+ [18-10-2025 08:57:30 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 817.7282ms 
+ [18-10-2025 08:57:30 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:57:30 ERR] EntityNotAuthorizedException at /api/auth/login/access-token POST by Anonymous | Trace = 0HNGE1CI47HGM:0000000B  
+ [18-10-2025 08:57:30 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 401 null application/json 834.7121ms 
+ [18-10-2025 08:57:37 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 83 
+ [18-10-2025 08:57:37 INF] CORS policy execution successful. 
+ [18-10-2025 08:57:37 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:57:37 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [18-10-2025 08:57:37 INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [18-10-2025 08:57:37 ERR] Authentication failed for username SpirosKom. Bad Credentials 
+ [18-10-2025 08:57:37 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 270.1352ms 
+ [18-10-2025 08:57:37 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:57:37 ERR] EntityNotAuthorizedException at /api/auth/login/access-token POST by Anonymous | Trace = 0HNGE1CI47HGM:0000000D  
+ [18-10-2025 08:57:37 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 401 null application/json 277.464ms 
+ [18-10-2025 08:59:17 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 81 
+ [18-10-2025 08:59:17 INF] CORS policy execution successful. 
+ [18-10-2025 08:59:17 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:59:17 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [18-10-2025 08:59:17 INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [18-10-2025 08:59:17 INF] User with username { Username} found 
+ [18-10-2025 08:59:17 INF] Executing OkObjectResult, writing value of type 'ExpensesTrackerApp.DTO.JwtTokenDTO'. 
+ [18-10-2025 08:59:17 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 124.6785ms 
+ [18-10-2025 08:59:17 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 08:59:17 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 200 702 application/json; charset=utf-8 129.8078ms 
+ [18-10-2025 09:02:16 INF] User profile is available. Using 'C:\Users\Petros.DESKTOP-T318MTU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [18-10-2025 09:02:16 INF] Now listening on: https://localhost:5001 
+ [18-10-2025 09:02:16 INF] Now listening on: http://localhost:5000 
+ [18-10-2025 09:02:16 INF] Application started. Press Ctrl+C to shut down. 
+ [18-10-2025 09:02:16 INF] Hosting environment: Development 
+ [18-10-2025 09:02:16 INF] Content root path: C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp 
+ [18-10-2025 09:02:17 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 09:02:17 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 83.5484ms 
+ [18-10-2025 09:02:17 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 09:02:17 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 09:02:17 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 9.0997ms 
+ [18-10-2025 09:02:17 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0554ms 
+ [18-10-2025 09:02:17 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 09:02:17 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.3564ms 
+ [18-10-2025 09:04:04 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - null null 
+ [18-10-2025 09:04:04 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 6.1622ms 
+ [18-10-2025 09:04:04 INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null 
+ [18-10-2025 09:04:04 INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null 
+ [18-10-2025 09:04:04 INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 4.1778ms 
+ [18-10-2025 09:04:04 INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.0884ms 
+ [18-10-2025 09:04:04 INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - null null 
+ [18-10-2025 09:04:04 INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.292ms 
+ [18-10-2025 09:04:13 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetUserById/2 - null null 
+ [18-10-2025 09:04:13 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:13 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 09:04:13 WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. 
+ [18-10-2025 09:04:13 INF] Executing ForbidResult with authentication schemes ([]). 
+ [18-10-2025 09:04:13 INF] AuthenticationScheme: Bearer was forbidden. 
+ [18-10-2025 09:04:13 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 84.1441ms 
+ [18-10-2025 09:04:13 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:13 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetUserById/2 - 403 0 null 119.9601ms 
+ [18-10-2025 09:04:30 INF] Request starting HTTP/2 GET https://localhost:5001/api/Users/GetUserById/2 - null null 
+ [18-10-2025 09:04:30 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:30 INF] Route matched with {action = "GetUserById", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.UserReadOnlyDTO]] GetUserById(Int32) on controller ExpensesTrackerApp.Controllers.UsersController (ExpensesTrackerApp). 
+ [18-10-2025 09:04:30 INF] Executing ForbidResult with authentication schemes ([]). 
+ [18-10-2025 09:04:30 INF] AuthenticationScheme: Bearer was forbidden. 
+ [18-10-2025 09:04:30 INF] Executed action ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp) in 5.9979ms 
+ [18-10-2025 09:04:30 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.UsersController.GetUserById (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:30 INF] Request finished HTTP/2 GET https://localhost:5001/api/Users/GetUserById/2 - 403 0 null 16.1755ms 
+ [18-10-2025 09:04:51 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 83 
+ [18-10-2025 09:04:51 INF] CORS policy execution successful. 
+ [18-10-2025 09:04:51 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:51 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [18-10-2025 09:04:51 INF] Executed DbCommand (19ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [18-10-2025 09:04:51 ERR] Authentication failed for username SpirosKom. Bad Credentials 
+ [18-10-2025 09:04:51 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 815.2071ms 
+ [18-10-2025 09:04:51 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:51 ERR] EntityNotAuthorizedException at /api/auth/login/access-token POST by Anonymous | Trace = 0HNGE1FI3I0NO:00000015  
+ [18-10-2025 09:04:51 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 401 null application/json 836.2058ms 
+ [18-10-2025 09:04:59 INF] Request starting HTTP/2 POST https://localhost:5001/api/auth/login/access-token - application/json-patch+json 83 
+ [18-10-2025 09:04:59 INF] CORS policy execution successful. 
+ [18-10-2025 09:04:59 INF] Executing endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:59 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExpensesTrackerApp.DTO.JwtTokenDTO]] Login(ExpensesTrackerApp.DTO.UserLoginDTO) on controller ExpensesTrackerApp.Controllers.AuthController (ExpensesTrackerApp). 
+ [18-10-2025 09:04:59 INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 50), @__username_0_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DeletedAt], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username], [u].[isDeleted]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0_1 
+ [18-10-2025 09:04:59 ERR] Authentication failed for username SpirosKom. Bad Credentials 
+ [18-10-2025 09:04:59 INF] Executed action ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp) in 257.4513ms 
+ [18-10-2025 09:04:59 INF] Executed endpoint 'ExpensesTrackerApp.Controllers.AuthController.Login (ExpensesTrackerApp)' 
+ [18-10-2025 09:04:59 ERR] EntityNotAuthorizedException at /api/auth/login/access-token POST by Anonymous | Trace = 0HNGE1FI3I0NO:00000017  
+ [18-10-2025 09:04:59 INF] Request finished HTTP/2 POST https://localhost:5001/api/auth/login/access-token - 401 null application/json 268.8338ms 
+ 
