@@ -1,4 +1,4 @@
-# **Expense Tracker Application** 
+# **Expense Tracker Application** 💰
 
 A full-stack web application for tracking personal expenses. The backend is built with **ASP.NET Core 8** and the frontend with **React 19**, communicating via REST API with **JWT-based authentication**.
 
@@ -30,7 +30,6 @@ A full-stack web application for tracking personal expenses. The backend is buil
 - Forms: **React Hook Form** + **Zod**
 - State: **React Context API** + AuthProvider
 
-
 ---
 
 ## **Backend Setup**
@@ -42,23 +41,40 @@ A full-stack web application for tracking personal expenses. The backend is buil
 
 ### **Environment Variables**
 
-Sensitive data is managed via **Windows environment variables**:
+All sensitive data is managed via **Windows environment variables**. Set these before running the backend:
 
 ```
-DB_PASS        → Your SQL Server password
+DB_HOST        → Database host (e.g., localhost)
+DB_PORT        → Database port (e.g., SQLEXPRESS)
+DB_NAME        → Database name (e.g., ExpensesDbApi)
+DB_USER        → Database user (e.g., Petros)
+DB_PASS        → Database password
 JWT_SECRET     → Secret key for signing JWT tokens (32+ chars)
 ```
 
-These are referenced in `appsettings.json` as `{DB_PASS}` and `{JWT_SECRET}` and substituted at runtime in `Program.cs`:
+**Set them using Command Prompt as Administrator:**
+
+```bash
+setx DB_HOST "localhost"
+setx DB_PORT "SQLEXPRESS"
+setx DB_NAME "ExpensesDbApi"
+setx DB_USER "Petros"
+setx DB_PASS "your_sql_server_password"
+setx JWT_SECRET "your_jwt_secret_key"
+```
+
+**Restart Visual Studio** after setting these variables.
+
+These variables are referenced in `appsettings.json` as `{DB_HOST}`, `{DB_PORT}`, `{DB_NAME}`, `{DB_USER}`, `{DB_PASS}`, and `{JWT_SECRET}` and substituted at runtime in `Program.cs`:
 
 ```csharp
-var connString = builder.Configuration.GetConnectionString("DefaultConnection");
-connString = connString!.Replace("{DB_PASS}", Environment.GetEnvironmentVariable("DB_PASS") ?? "");
-
+var dbHost = Environment.GetEnvironmentVariable("DB_HOST") ?? "localhost";
+var dbPass = Environment.GetEnvironmentVariable("DB_PASS");
 var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET");
-if (string.IsNullOrEmpty(jwtSecret))
+
+if (string.IsNullOrEmpty(dbPass))
 {
-    throw new InvalidOperationException("JWT_SECRET environment variable is not set!");
+    throw new InvalidOperationException("DB_PASS environment variable is not set!");
 }
 ```
 
@@ -101,6 +117,7 @@ npm install
 ```
 
 Create `.env.local` in `frontend/` root:
+
 ```env
 VITE_API_URL=https://localhost:5001
 VITE_API_TIMEOUT=30000
@@ -131,15 +148,20 @@ App runs on `http://localhost:5173`
 ## **Running Locally**
 
 ### **Terminal 1 - Backend**
+
 ```bash
 cd backend/ExpensesTrackerApp
+dotnet restore
+dotnet ef database update
 dotnet run
 # Runs on https://localhost:5001
 ```
 
 ### **Terminal 2 - Frontend**
+
 ```bash
 cd frontend
+npm install
 npm run dev
 # Runs on http://localhost:5173
 ```
@@ -198,11 +220,36 @@ npm run dev
 
 | Issue | Solution |
 |-------|----------|
-| **Environment variables not found** | Restart VS/Terminal after setting Windows env vars |
-| **JWT Token Invalid** | Verify `JWT_SECRET` env var is set correctly |
+| **Environment variables not found** | Run `setx` commands as Administrator, then **restart Visual Studio** |
+| **DB Connection Failed** | Verify SQL Server is running; check all DB environment variables (DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS) |
+| **Database doesn't exist** | Manually create the database in SQL Server Management Studio with the name from `DB_NAME` env var, then run `dotnet ef database update` |
+| **JWT Token Invalid** | Verify `JWT_SECRET` env var is set correctly and is 32+ characters |
 | **CORS Errors** | Check `AddCors()` in `Program.cs` allows `http://localhost:5173` |
-| **DB Connection Failed** | Verify SQL Server is running; check `DB_PASS` env var |
 | **Vite Port Taken** | Run `npm run dev -- --port 3000` |
-| **Migrations Won't Apply** | Ensure SQL Server user has `db_owner` role |
+| **Migrations Won't Apply** | Ensure SQL Server user has `db_owner` role; verify database exists in SQL Server |
+| **"Cannot connect to database"** | Verify SQL Server instance name matches `DB_PORT` env var (usually `SQLEXPRESS` for local installs) |
 
 ---
+
+## **Security Notes**
+
+⚠️ **Never commit sensitive data:**
+- Store all passwords in **Windows environment variables** (not in `appsettings.json`)
+- Add production config files to `.gitignore`
+- Use HTTPS in production
+
+✅ **Best Practices:**
+- Passwords hashed with **BCrypt**
+- JWT tokens expire after **3 hours**
+- Tokens stored in **HTTP-only cookies** (XSS-safe)
+- Role-based authorization enforced **server-side**
+
+---
+
+## **Additional Resources**
+
+- [ASP.NET Core Docs](https://docs.microsoft.com/en-us/dotnet/)
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/)
+- [React Documentation](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Vite Guide](https://vitejs.dev)
