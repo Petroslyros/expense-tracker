@@ -1,4 +1,4 @@
-# **Expense Tracker Application** 💰
+# **Expense Tracker Application** 
 
 A full-stack web application for tracking personal expenses. The backend is built with **ASP.NET Core 8** and the frontend with **React 19**, communicating via REST API with **JWT-based authentication**.
 
@@ -230,26 +230,3 @@ npm run dev
 | **"Cannot connect to database"** | Verify SQL Server instance name matches `DB_PORT` env var (usually `SQLEXPRESS` for local installs) |
 
 ---
-
-## **Security Notes**
-
-⚠️ **Never commit sensitive data:**
-- Store all passwords in **Windows environment variables** (not in `appsettings.json`)
-- Add production config files to `.gitignore`
-- Use HTTPS in production
-
-✅ **Best Practices:**
-- Passwords hashed with **BCrypt**
-- JWT tokens expire after **3 hours**
-- Tokens stored in **HTTP-only cookies** (XSS-safe)
-- Role-based authorization enforced **server-side**
-
----
-
-## **Additional Resources**
-
-- [ASP.NET Core Docs](https://docs.microsoft.com/en-us/dotnet/)
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/)
-- [React Documentation](https://react.dev)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Vite Guide](https://vitejs.dev)
