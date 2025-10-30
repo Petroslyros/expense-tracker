@@ -101,7 +101,7 @@ const ExpensesPage = () => {
             {/* ============= EXPENSES SECTION ============= */}
             <div>
                 <div className="flex justify-between items-center mb-6">
-                    <h1 className="text-2xl">Expenses</h1>
+                    <h1 className="text-2xl">My Expenses</h1>
                     <Button onClick={() => navigate("/expenses/new")}>
                         <Plus className="w-4 h-4 mr-2" />
                         Add Expense

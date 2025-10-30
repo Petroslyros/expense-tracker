@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\expensestrackerapp\\ExpensesTrackerApp.csproj": {}
+    "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\ExpensesTrackerApp\\ExpensesTrackerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\expensestrackerapp\\ExpensesTrackerApp.csproj": {
+    "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\ExpensesTrackerApp\\ExpensesTrackerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\expensestrackerapp\\ExpensesTrackerApp.csproj",
+        "projectUniqueName": "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\ExpensesTrackerApp\\ExpensesTrackerApp.csproj",
         "projectName": "ExpensesTrackerApp",
-        "projectPath": "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\expensestrackerapp\\ExpensesTrackerApp.csproj",
+        "projectPath": "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\ExpensesTrackerApp\\ExpensesTrackerApp.csproj",
         "packagesPath": "C:\\Users\\Petros.DESKTOP-T318MTU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\expensestrackerapp\\obj\\",
+        "outputPath": "C:\\Users\\Petros.DESKTOP-T318MTU\\Desktop\\Coding Factory\\C#\\ExpensesTrackerApp\\ExpensesTrackerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

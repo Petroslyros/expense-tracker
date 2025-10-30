@@ -189,3 +189,4 @@ C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\Exp
 C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp\obj\Debug\net8.0\ExpensesTrackerApp.pdb
 C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp\obj\Debug\net8.0\ExpensesTrackerApp.genruntimeconfig.cache
 C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp\obj\Debug\net8.0\ref\ExpensesTrackerApp.dll
+C:\Users\Petros.DESKTOP-T318MTU\Desktop\Coding Factory\C#\ExpensesTrackerApp\ExpensesTrackerApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
