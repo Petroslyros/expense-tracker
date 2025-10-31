@@ -1,4 +1,4 @@
-# **Expense Tracker Application** 
+# **Expense Tracker Application** 💰
 
 A full-stack web application for tracking personal expenses. The backend is built with **ASP.NET Core 8** and the frontend with **React 19**, communicating via REST API with **JWT-based authentication**.
 
@@ -38,6 +38,7 @@ A full-stack web application for tracking personal expenses. The backend is buil
 - .NET 8.0 SDK or higher
 - SQL Server 2019+ (SQL Server Express)
 - Visual Studio or VS Code
+- Entity Framework Core CLI (install with: `dotnet tool install --global dotnet-ef --version 9.0.10`)
 
 ### **Environment Variables**
 
@@ -80,12 +81,25 @@ if (string.IsNullOrEmpty(dbPass))
 
 ### **Installation**
 
-```bash
-cd backend/ExpensesTrackerApp
-dotnet restore
-dotnet ef database update
-dotnet run
-```
+1. **Install Entity Framework Core CLI (one-time setup):**
+   ```bash
+   dotnet tool install --global dotnet-ef
+   ```
+
+2. **Restore packages and create database:**
+   ```bash
+   cd backend/ExpensesTrackerApp
+   dotnet restore
+   dotnet ef database update
+   dotnet run
+   ```
+
+If `dotnet ef database update` fails, manually create the database in SQL Server Management Studio:
+- Open **SQL Server Management Studio**
+- Right-click **Databases** → **New Database**
+- Name it `ExpensesDbApi` (or your `DB_NAME` env var)
+- Click OK
+- Then run `dotnet ef database update` again
 
 API runs on `https://localhost:5001` | Swagger UI at `/swagger`
 
@@ -150,6 +164,9 @@ App runs on `http://localhost:5173`
 ### **Terminal 1 - Backend**
 
 ```bash
+# One-time setup (if not done before)
+dotnet tool install --global dotnet-ef --version 9.0.10
+
 cd backend/ExpensesTrackerApp
 dotnet restore
 dotnet ef database update
