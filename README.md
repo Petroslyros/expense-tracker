@@ -1,4 +1,4 @@
-# **Expense Tracker Application** 💰
+# **Expense Tracker Application** 
 
 A full-stack web application for tracking personal expenses. The backend is built with **ASP.NET Core 8** and the frontend with **React 19**, communicating via REST API with **JWT-based authentication**.
 
