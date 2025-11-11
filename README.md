@@ -17,10 +17,9 @@ A full-stack web application for tracking personal expenses. The backend is buil
 
 ---
 ## Demo Video
+**Tip:** to open the demo in a new tab, middle-click the thumbnail (or Cmd/Ctrl + click, or right-click → “Open link in new tab”).
 
 [![Watch the demo on YouTube](https://img.youtube.com/vi/0l5iLTNP8Lo/maxresdefault.jpg)](https://www.youtube.com/watch?v=0l5iLTNP8Lo)
-
-**Tip:** to open the demo in a new tab, middle-click the thumbnail (or Cmd/Ctrl + click, or right-click → “Open link in new tab”).
 
 **Features Demonstrated:**
 - User authentication with JWT
