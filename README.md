@@ -1,4 +1,4 @@
-# **Expense Tracker Application** 💰
+# **Expense Tracker Application** 
 
 A full-stack web application for tracking personal expenses. The backend is built with **ASP.NET Core 8** and the frontend with **React 19**, communicating via REST API with **JWT-based authentication**.
 
@@ -16,18 +16,22 @@ A full-stack web application for tracking personal expenses. The backend is buil
 - [Troubleshooting](#troubleshooting)
 
 ---
-## **Demo Video**
+Demo Video
+<a href="https://www.youtube.com/watch?v=0l5iLTNP8Lo" target="_blank"> <img src="https://img.youtube.com/vi/0l5iLTNP8Lo/maxresdefault.jpg" alt="Watch the demo on YouTube" style="width:100%;max-width:700px;border-radius:12px;"> </a>
 
-[![Watch the demo on YouTube](https://img.youtube.com/vi/0l5iLTNP8Lo/maxresdefault.jpg)](https://www.youtube.com/watch?v=0l5iLTNP8Lo)
+Features Demonstrated:
 
-**Features Demonstrated:**
-- User authentication with JWT
-- Expense logging and categorization
-- Real-time budget tracking with visual indicators
-- Responsive mobile-friendly design
-- Expense management (create, edit, delete)
+User authentication with JWT
 
-[Watch on YouTube →](https://www.youtube.com/watch?v=0l5iLTNP8Lo)
+Expense logging and categorization
+
+Real-time budget tracking with visual indicators
+
+Responsive mobile-friendly design
+
+Expense management (create, edit, delete)
+
+🎥 <a href="https://www.youtube.com/watch?v=0l5iLTNP8Lo" target="_blank">Watch the demo on YouTube →</a>
 
 ## **Architecture**
 
