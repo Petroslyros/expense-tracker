@@ -1,11 +1,14 @@
-# **Expense Tracker Application** 
+# **Expense Tracker Application** 💰
 
 A full-stack web application for tracking personal expenses. The backend is built with **ASP.NET Core 8** and the frontend with **React 19**, communicating via REST API with **JWT-based authentication**.
+
+**📌 Note:** Backend and Frontend are in separate repositories.
 
 ---
 
 ## **Table of Contents**
 - [Architecture](#architecture)
+- [Repository Links](#repository-links)
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [Running Locally](#running-locally)
@@ -32,6 +35,13 @@ A full-stack web application for tracking personal expenses. The backend is buil
 
 ---
 
+## **Repository Links**
+
+- **Backend Repository:** [expense-tracker-api](https://github.com/YOUR_USERNAME/expense-tracker-api)
+- **Frontend Repository:** [expense-tracker-web](https://github.com/YOUR_USERNAME/expense-tracker-web)
+
+---
+
 ## **Backend Setup**
 
 ### **Prerequisites**
@@ -40,6 +50,13 @@ A full-stack web application for tracking personal expenses. The backend is buil
 - SQL Server Management Studio (SSMS) - optional but recommended for managing databases
 - Visual Studio or VS Code
 - Entity Framework Core CLI (install with: `dotnet tool install --global dotnet-ef --version 9.0.10`)
+
+### **Clone & Install**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/expense-tracker-api.git
+cd expense-tracker-api
+```
 
 ### **Environment Variables**
 
@@ -67,29 +84,15 @@ setx JWT_SECRET "your_jwt_secret_key"
 
 **Restart Visual Studio** after setting these variables.
 
-These variables are referenced in `appsettings.json` as `{DB_HOST}`, `{DB_PORT}`, `{DB_NAME}`, `{DB_USER}`, `{DB_PASS}`, and `{JWT_SECRET}` and substituted at runtime in `Program.cs`:
-
-```csharp
-var dbHost = Environment.GetEnvironmentVariable("DB_HOST") ?? "localhost";
-var dbPass = Environment.GetEnvironmentVariable("DB_PASS");
-var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET");
-
-if (string.IsNullOrEmpty(dbPass))
-{
-    throw new InvalidOperationException("DB_PASS environment variable is not set!");
-}
-```
-
 ### **Installation**
 
 1. **Install Entity Framework Core CLI (one-time setup):**
    ```bash
-   dotnet tool install --global dotnet-ef 
+   dotnet tool install --global dotnet-ef --version 9.0.10
    ```
 
 2. **Restore packages and create database:**
    ```bash
-   cd backend/ExpensesTrackerApp
    dotnet restore
    dotnet ef database update
    dotnet run
@@ -124,19 +127,24 @@ API runs on `https://localhost:5001` | Swagger UI at `/swagger`
 - Node.js 18+ and npm
 - Modern web browser
 
-### **Installation**
+### **Clone & Install**
 
 ```bash
-cd frontend
+git clone https://github.com/YOUR_USERNAME/expense-tracker-web.git
+cd expense-tracker-web
 npm install
 ```
 
-Create `.env.local` in `frontend/` root:
+### **Environment Configuration**
+
+Create `.env.local` in the project root:
 
 ```env
 VITE_API_URL=https://localhost:5001
 VITE_API_TIMEOUT=30000
 ```
+
+### **Running the App**
 
 ```bash
 npm run dev
@@ -165,10 +173,11 @@ App runs on `http://localhost:5173`
 ### **Terminal 1 - Backend**
 
 ```bash
+cd expense-tracker-api
+
 # One-time setup (if not done before)
 dotnet tool install --global dotnet-ef --version 9.0.10
 
-cd backend/ExpensesTrackerApp
 dotnet restore
 dotnet ef database update
 dotnet run
@@ -178,7 +187,7 @@ dotnet run
 ### **Terminal 2 - Frontend**
 
 ```bash
-cd frontend
+cd expense-tracker-web
 npm install
 npm run dev
 # Runs on http://localhost:5173
@@ -238,14 +247,38 @@ npm run dev
 
 | Issue | Solution |
 |-------|----------|
-| **Environment variables not found** | Run `setx` commands as Administrator, then **restart Visual Studio** |
+| **SQL Server not installed** | Download SQL Server Express from https://www.microsoft.com/en-us/sql-server/sql-server-express and install it |
+| **SQL Server not running** | Start SQL Server from Windows Services (search "Services" in Windows) or SQL Server Configuration Manager |
+| **Environment variables not found** | Run setx commands as Administrator, then restart Visual Studio |
 | **DB Connection Failed** | Verify SQL Server is running; check all DB environment variables (DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS) |
-| **Database doesn't exist** | Manually create the database in SQL Server Management Studio with the name from `DB_NAME` env var, then run `dotnet ef database update` |
-| **JWT Token Invalid** | Verify `JWT_SECRET` env var is set correctly and is 32+ characters |
-| **CORS Errors** | Check `AddCors()` in `Program.cs` allows `http://localhost:5173` |
-| **Vite Port Taken** | Run `npm run dev -- --port 3000` |
-| **Migrations Won't Apply** | Ensure SQL Server user has `db_owner` role; verify database exists in SQL Server |
-| **"Cannot connect to database"** | Verify SQL Server instance name matches `DB_PORT` env var (usually `SQLEXPRESS` for local installs) |
+| **Database doesn't exist** | Manually create the database in SQL Server Management Studio with the name from DB_NAME env var, then run dotnet ef database update |
+| **JWT Token Invalid** | Verify JWT_SECRET env var is set correctly and is 32+ characters |
+| **CORS Errors** | Check AddCors() in Program.cs allows http://localhost:5173 |
+| **Vite Port Taken** | Run npm run dev -- --port 3000 |
+| **Migrations Won't Apply** | Ensure SQL Server user has db_owner role; verify database exists in SQL Server |
+| **"Cannot connect to database"** | Verify SQL Server instance name matches DB_PORT env var (usually SQLEXPRESS for local installs) |
 
 ---
 
+## **Security Notes**
+
+⚠️ **Never commit sensitive data:**
+- Store all passwords in **Windows environment variables** (not in `appsettings.json`)
+- Add production config files to `.gitignore`
+- Use HTTPS in production
+
+✅ **Best Practices:**
+- Passwords hashed with **BCrypt**
+- JWT tokens expire after **3 hours**
+- Tokens stored in **HTTP-only cookies** (XSS-safe)
+- Role-based authorization enforced **server-side**
+
+---
+
+## **Additional Resources**
+
+- [ASP.NET Core Docs](https://docs.microsoft.com/en-us/dotnet/)
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/)
+- [React Documentation](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Vite Guide](https://vitejs.dev)
