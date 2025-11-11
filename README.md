@@ -16,6 +16,18 @@ A full-stack web application for tracking personal expenses. The backend is buil
 - [Troubleshooting](#troubleshooting)
 
 ---
+## **Demo Video**
+
+[![Watch the demo on YouTube](https://img.youtube.com/vi/0l5iLTNP8Lo/maxresdefault.jpg)](https://www.youtube.com/watch?v=0l5iLTNP8Lo)
+
+**Features Demonstrated:**
+- User authentication with JWT
+- Expense logging and categorization
+- Real-time budget tracking with visual indicators
+- Responsive mobile-friendly design
+- Expense management (create, edit, delete)
+
+[Watch on YouTube →](https://www.youtube.com/watch?v=0l5iLTNP8Lo)
 
 ## **Architecture**
 
